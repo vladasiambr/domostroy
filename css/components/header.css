@@ -1,0 +1,17 @@
+.header {
+  width: 1366px;
+  height: 768px;
+}
+
+.header__logo {
+  height: 78px;
+  width: 201px;
+  margin: 33px 0 20px 71px;
+background: url('/images/logo.png');
+background-repeat: no-repeat;
+background-position:-1px;
+}
+
+.header__logo-text {
+margin: 0 0 1px 0;
+}
