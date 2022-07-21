@@ -3,20 +3,21 @@
   height: 768px;
   /* высота и ширина хедера */
 }
-.header__wrapp {
+.header__information {
   display: flex;
+  height: 115px;
+  margin: 0 71px;
+  position: relative;
+  /*контетнт хедера  */
 }
 
 .header__logo {
-  height: 78px;
-  width: 201px;
-  margin: 17px 0 20px 71px;
-  /* логотип */
+  position: absolute;
+  bottom: 20px;
+  /* контейнер для логотипа */
 }
 
 .header__logo-text {
-  margin: 0 0 1px 0;
-  text-align: center;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -25,84 +26,80 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.7);
-  /* текст над хедером */
+  margin: 0;
+  text-align: center;
+  /* текст над логотипом */
 }
 
-.header__information {
-  display: flex;
-  height: 115px;
-  /*контетнт хедера  */
+.header__company {
+  position: absolute;
+  left: 364px;
+  /* о компании */
 }
-
-.header__connection-email {
-  display: flex;
-  /* самая верхняя часть хедера */
-}
-
-.phone__number {
-  display: flex;
-  flex-direction: column;
-  margin: 29px 113px 40px 0px;
-
-  /* телефоны */
-}
-
-.phone__number-link {
+.company {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #212864;
-  padding: 8px 0 0 0;
-  /* номера телефонов */
-}
-
-.company {
-  margin: 24px 115px 22px 163px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.8);
+  /* текст контейнера о компании */
 }
 .email {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  margin: 0;
-  padding: 0 0 8px 50px;
-  color: rgb(0, 0, 0, 0.8);
-  /* напишите нам */
-}
-.email a {
+  line-height: 17px;
   text-decoration: none;
-  color: var(--link-color);
-  /* ссылка  */
+  color: #212864;
+  /* почта */
 }
-.address {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  padding: 0;
-  margin: 0;
-  color: rgb(0, 0, 0, 0.8);
-  /* адрес */
+.header__company-email {
+  margin: 22px 0 8px 50px;
+  right: 0;
+  /* текст перед почтой */
 }
-.schedule {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  padding: 10px 0 0 45px;
+.header__company-address {
   margin: 0;
-  color: rgb(0, 0, 0, 0.8);
-  /* график */
+  /* текст адресс */
+}
+.header__company-schedule {
+  margin: 10px 0 22px 45px;
+  /* текст расписание */
 }
 
-.call {
-  margin: 20px 71px 8px 0;
-  width: 200px;
-  height: 42px;
-  border: solid 1px var(--link-color);
+.header__phone-number {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 751px;
+  margin: 29px 0 40px 0;
+  /* контейнер номеров телефона */
+}
+.header__phone-number-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--blue-darken-1);
+  padding-bottom: 8px;
+  /* номера телефонов */
+}
+
+.header__connection {
+  position: absolute;
+  right: 0;
+  /* контейнер с кнопкой */
+}
+
+.header__connection-call {
+  padding: 14px 39px 13px;
+  box-sizing: border-box;
+  border: 1px solid var(--blue-darken-1);
   border-radius: 25px;
   font-family: "Inter";
   font-style: normal;
@@ -110,54 +107,20 @@
   font-size: 12px;
   line-height: 15px;
   text-transform: uppercase;
-  background: #FFFFFF;
-  /* кнопка */
+  color: var(--blue-darken-1);
+  margin: 20px 0 8px;
+  background: #ffffff;
+  /* кнопка контейнера  */
 }
 
-.connection {
+.header__message {
   display: flex;
-  flex-direction: column;
-  /* блок кнопки и сетей */
-}
-.message {
-  width: 178px;
-  height: 27px;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 11px;
-  /* блок картинок сетей */
-}
-
-.message a {
-  display: inline;
   text-decoration: none;
-  /* картинки сетей  */
+  justify-content: space-evenly;
+  /*контейнер ссылак на соц.сети */
 }
 
-.header__navigation-list {
-  display: flex;
-  width: 1366px;
-  height: 57px;
-  justify-content: space-around;
-  background-color: #15193D;
-  margin: 0;
-  align-items: center;
-}
-.header__navigation-list-item {
-list-style-type: none;
-}
-
-
-.header_navigation-link {
-text-decoration: none;
-color: #FFFFFF;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-} 
-
-.header_navigation-link:hover{
-  color: #FFC239;
+.header__message-link {
+  text-decoration: none;
+  /* ссылки на соц. сети */
 }
