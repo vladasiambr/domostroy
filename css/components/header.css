@@ -119,8 +119,57 @@
   justify-content: space-evenly;
   /*контейнер ссылак на соц.сети */
 }
-
 .header__message-link {
   text-decoration: none;
   /* ссылки на соц. сети */
+}
+
+.header__menu {
+  height: 57px;
+  background: #15193d;
+}
+
+.header__menu-list {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 112px 22px 90px;
+}
+.header__menu-link {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.header__catalog {
+  height: 45px;
+  background: #8c93d1;
+}
+.header__catalog-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 13px 116px 15px 90px;
+  margin: 0;
+}
+
+.header__catalog-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  text-decoration: none;
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+  padding-right: 50px;
+}
+
+.header__catalog-list-item:last-child a{
+  border: none;
 }
