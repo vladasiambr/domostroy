@@ -173,3 +173,10 @@
 .header__catalog-list-item:last-child a{
   border: none;
 }
+
+.header__photo{
+    transform: translateY(-45px);
+    position: absolute;
+    z-index: -1;
+
+}
