@@ -1,19 +1,14 @@
 .header {
-  width: 1366px;
-  height: 768px;
-  /* высота и ширина хедера */
 }
 .header__information {
   display: flex;
-  height: 115px;
-  margin: 0 71px;
-  position: relative;
+
+  padding: 0 71px;
   /*контетнт хедера  */
 }
 
 .header__logo {
-  position: absolute;
-  bottom: 20px;
+  margin: 17px 163px 0 0;
   /* контейнер для логотипа */
 }
 
@@ -32,8 +27,7 @@
 }
 
 .header__company {
-  position: absolute;
-  left: 364px;
+  margin-right: 115px;
   /* о компании */
 }
 .company {
@@ -72,8 +66,6 @@
 .header__phone-number {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  left: 751px;
   margin: 29px 0 40px 0;
   /* контейнер номеров телефона */
 }
@@ -91,8 +83,7 @@
 }
 
 .header__connection {
-  position: absolute;
-  right: 0;
+  margin-left: auto;
   /* контейнер с кнопкой */
 }
 
@@ -170,13 +161,76 @@
   padding-right: 50px;
 }
 
-.header__catalog-list-item:last-child a{
+.header__catalog-list-item:last-child a {
   border: none;
 }
 
-.header__photo{
-    transform: translateY(-45px);
-    position: absolute;
-    z-index: -1;
+.header__photo {
+  transform: translateY(-45px);
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
 
+.header__description-description {
+}
+.header__description-logo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  color: #ffffff;
+  margin-bottom: 17px;
+}
+
+.header__description-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: rgba(255, 255, 255, 0.8);
+}
+.header__description{
+  padding-left: 89px;
+  padding-top: 68px;
+
+}
+.header__pric{
+  text-decoration: none;
+ display: flex;
+ align-items: center;
+
+}
+.header__pric-content{
+  display: flex;
+  padding-top: 46px;
+}
+.header__button-calculate {
+  border: 2px solid #a5a5a5;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.header__button-calculate-img {
+  padding: 27px 29px 27px 34px;
+}
+.header__pric-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding-left: 24px; ;
+}
+
+.header__description-logo{
+  margin: 0;
+}
+.header__description-text{
+  margin: 0;
+  padding-top: 16px;
 }
