@@ -1,0 +1,104 @@
+.suggestions {
+  padding: 88px 83px 0 83px;
+
+  background: var(--gray-light-4);
+}
+.slider{
+  margin-top: 32px;
+}
+
+.suggestions-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 51px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.suggestions__building {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  width: 937px;
+}
+
+.suggestions__building-link {
+  text-decoration: none;
+  background: var(--gray-light-1);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  padding: 12px 35px;
+}
+.slider {
+  width: 284px;
+  height: 355px;
+  background: #ffffff;
+  box-shadow: 3px 4px 33px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.name-products {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 19px;
+  color: var(--black);
+
+  margin: 0;
+}
+.suggestions__discription {
+  padding: 18px 0 35px 21px;
+}
+
+.discription-products {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.discription-products p {
+  margin: 0;
+}
+.frame-house {
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+} 
+
+.price {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.size{
+padding: 17px 0 4px; 
+}
+.numbers-size{
+padding-left: 153px;
+}
+.square{
+padding-bottom: 2px;
+}
+.numbers-square{
+padding-left: 145px;
+}
+
+.rooms{
+padding-bottom: 28px;
+}
+.numbers-rooms{
+padding-left: 82px;
+}

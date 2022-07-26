@@ -1,7 +1,22 @@
 :root {
---blue-darken-1: #212864;
+  --blue-darken-1: #212864;
+  --blue-darken-2: #353d83;
+  --blue-darken-3: #15193d;
+  --white: #ffffff;
+  --black: #000000;
+  --yellow-darken-1: #ffc239;
+  --yellow-darken-2: #d79500;
+  --black-2: #000000 60 %;
+  --grey-darken: #333333;
+  --gray-light-1: #eeeeee;
+  --gray-light-2: #f1f1f6;
+  --gray-light-3: #f6f6f9cc;
+  --gray-light-4: #e5e5e5;
+  --lilac: #8c93d1;
 
-
-
---link-color:var(--blue-darken-1)
+  --link-color: var(--blue-darken-1);
+  --active-color: var(--yellow);
+  --bacground-link-color: var(--gray-light-1);
+  --bacground-section: var(--gray-light-4);
+  --text-color: var(--black);
 }

@@ -1,4 +1,5 @@
 .header {
+  max-width: 1366px;
 }
 .header__information {
   display: flex;
@@ -165,6 +166,15 @@
   border: none;
 }
 
+.header__description {
+  padding-left: 89px;
+  padding-top: 68px;
+  background: url("/images/main\ Img.jpg") no-repeat, rgba(0, 0, 0, 0.35);
+  background-position-y: -45px;
+  height: 484px;
+  background-blend-mode: multiply;
+}
+
 .header__photo {
   transform: translateY(-45px);
   position: absolute;
@@ -172,8 +182,6 @@
   width: 100%;
 }
 
-.header__description-description {
-}
 .header__description-logo {
   font-family: "Inter";
   font-style: normal;
@@ -193,18 +201,12 @@
 
   color: rgba(255, 255, 255, 0.8);
 }
-.header__description{
-  padding-left: 89px;
-  padding-top: 68px;
-
-}
-.header__pric{
+.header__pric {
   text-decoration: none;
- display: flex;
- align-items: center;
-
+  display: flex;
+  align-items: center;
 }
-.header__pric-content{
+.header__pric-content {
   display: flex;
   padding-top: 46px;
 }
@@ -224,13 +226,13 @@
   font-size: 16px;
   line-height: 19px;
   color: #ffffff;
-  padding-left: 24px; ;
+  padding-left: 24px;
 }
 
-.header__description-logo{
+.header__description-logo {
   margin: 0;
 }
-.header__description-text{
+.header__description-text {
   margin: 0;
   padding-top: 16px;
 }

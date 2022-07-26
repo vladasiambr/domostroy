@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./css/main.css">
   <title>ДомСтрой</title>
 </head>
@@ -94,34 +95,55 @@
           </li>
         </ul>
       </nav>
-    </div>
-    <img class="header__photo" src="./images/main Img.jpg" alt="house">
-    <div class="header__description">
-      <div class="header__description-description">
-        <h2 class="header__description-logo">СТРОИТЕЛЬСТВО ДАЧНЫХ ДОМОВ<br>
-          И КОТТЕДЖЕЙ</h2>
-        <p class="header__description-text">На участок поставляются готовые модули,<br>
-          производится их монтаж в короткие сроки. <br>
-          Мы гарантируем выполнение всех взятых на себя<br>
-          обязательств и доступные цены.</p>
+
+
+      <div class="header__description">
+        <div class="header__description-description">
+          <h2 class="header__description-logo">СТРОИТЕЛЬСТВО ДАЧНЫХ ДОМОВ<br>
+            И КОТТЕДЖЕЙ</h2>
+          <p class="header__description-text">На участок поставляются готовые модули,<br>
+            производится их монтаж в короткие сроки. <br>
+            Мы гарантируем выполнение всех взятых на себя<br>
+            обязательств и доступные цены.</p>
+        </div>
+        <div class="header__pric-content">
+          <a class="header__pric" href="#">
+            <button class="header__button-calculate">
+              <img class="header__button-calculate-img" src="/images/icons/стрелка.svg" alt="button-calculate">
+            </button>
+            <p class="header__pric-text">РАССЧИТАТЬ СТОИМОСТЬ</p>
+        </div>
+        </a>
       </div>
-      <div class="header__pric-content">
-        <a class="header__pric" href="#">
-          <button class="header__button-calculate">
-            <img class="header__button-calculate-img" src="/images/icons/стрелка.svg" alt="button-calculate">
-          </button>
-
-          <p class="header__pric-text">РАССЧИТАТЬ СТОИМОСТЬ</p>
-      </div>
-
-      </a>
-
-
     </div>
-    </div>
-
     </div>
   </header>
+
+  <section class="suggestions">
+
+    <h3 class="suggestions-title">Предложения для вас</h3>
+    <div class="suggestions__building">
+      <a class="suggestions__building-link" href="#">Каркасные дома</a>
+      <a class="suggestions__building-link" href="#">Бани</a>
+      <a class="suggestions__building-link" href="#">Беседки</a>
+      <a class="suggestions__building-link" href="#">Бытовки</a>
+      <a class="suggestions__building-link" href="#"> Хоз. постройки</a>
+    </div>
+    <div class="slider">
+      <img class="frame-house" src="./images/Frame-house.jpg" alt="Frame-house">
+      <div class="suggestions__discription">
+        <h4 class="name-products">Каркасный дом с<br> балконом LK-2</h4>
+        <div class="discription-products">
+            <p class="size">Размер: <span class="numbers-size">4х6 м</span></p>
+            <p class="square">Площадь:<span class="numbers-square">34.8 м2</span></p>
+            <p class="rooms">Количество комнат: <span class="numbers-rooms">3 шт</span></p>
+            <p class="price">940 000 ₽</p>
+        </div>
+      </div>
+  </section>
+  <!-- JavaScript -->
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 
 </html>
