@@ -1,6 +1,4 @@
-.header {
-  max-width: 1366px;
-}
+
 .header__information {
   display: flex;
 
@@ -214,10 +212,11 @@
   border: 2px solid #a5a5a5;
   border-radius: 50%;
   background: transparent;
+  padding: 0;
 }
 
 .header__button-calculate-img {
-  padding: 27px 29px 27px 34px;
+  padding: 27px 34px;
 }
 .header__pric-text {
   font-family: "Inter";

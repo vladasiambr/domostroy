@@ -1,9 +1,14 @@
 .suggestions {
-  padding: 88px 83px 0 83px;
-
   background: var(--gray-light-4);
+  max-width: 1366px;
+  margin: 0 auto;
 }
-.slider{
+.suggestions-contante{
+  padding: 88px 83px;
+  padding-bottom: 0;
+}
+
+.products {
   margin-top: 32px;
 }
 
@@ -70,9 +75,9 @@
   margin: 0;
 }
 .frame-house {
-border-top-right-radius: 10px;
-border-top-left-radius: 10px;
-} 
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
 
 .price {
   font-family: "Inter";
@@ -83,22 +88,22 @@ border-top-left-radius: 10px;
   color: #000000;
 }
 
-.size{
-padding: 17px 0 4px; 
+.size {
+  padding: 17px 0 4px;
 }
-.numbers-size{
-padding-left: 153px;
+.numbers-size {
+  padding-left: 153px;
 }
-.square{
-padding-bottom: 2px;
+.square {
+  padding-bottom: 2px;
 }
-.numbers-square{
-padding-left: 145px;
+.numbers-square {
+  padding-left: 145px;
 }
 
-.rooms{
-padding-bottom: 28px;
+.rooms {
+  padding-bottom: 28px;
 }
-.numbers-rooms{
-padding-left: 82px;
+.numbers-rooms {
+  padding-left: 82px;
 }
