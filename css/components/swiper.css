@@ -1,11 +1,26 @@
-.products__swiper{
+.products__swiper {
   width: 1272px;
   height: 355px;
 }
 
-.swiper-button-next:after, .swiper-button-prev:after{
-
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  display: none;
 }
-.swiper-button-next:after{
-  
+.swiper-button-next:after {
+  width: 13px;
+  height: 39px;
+}
+
+.swiper-slide {
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 13px;
+  height: 39px;
+}
+
+.swiper-slide .swiper-slide-active {
+  width: 305px;
 }

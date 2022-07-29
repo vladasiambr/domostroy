@@ -3,15 +3,17 @@
   max-width: 1366px;
   margin: 0 auto;
 }
-.suggestions-contante{
+.suggestions-container{
+  
+}
+.suggestions-contant{
   padding: 88px 83px;
-  padding-bottom: 0;
 }
 
-.products {
-  margin-top: 32px;
-}
 
+.suggestions__discription {
+  padding: 18px 0 35px 21px;
+}
 .suggestions-title {
   font-family: "Inter";
   font-style: normal;
@@ -41,14 +43,15 @@
   border-radius: 25px;
   padding: 12px 35px;
 }
-.slider {
+
+.products {
+  margin-top: 32px;
   width: 284px;
   height: 355px;
   background: #ffffff;
   box-shadow: 3px 4px 33px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
 }
-
 .name-products {
   font-family: "Inter";
   font-style: normal;
@@ -56,11 +59,7 @@
   font-size: 18px;
   line-height: 19px;
   color: var(--black);
-
   margin: 0;
-}
-.suggestions__discription {
-  padding: 18px 0 35px 21px;
 }
 
 .discription-products {
@@ -106,4 +105,20 @@
 }
 .numbers-rooms {
   padding-left: 82px;
+}
+
+.watch-all-project {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: var(--text-color2);
+  background: #353d83;
+  border-radius: 30px;
+  padding: 21px 51px;
+  margin: 32px 0 0 518px;
+
 }

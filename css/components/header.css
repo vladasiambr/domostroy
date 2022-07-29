@@ -1,4 +1,3 @@
-
 .header__information {
   display: flex;
 
@@ -65,7 +64,7 @@
 .header__phone-number {
   display: flex;
   flex-direction: column;
-  margin: 29px 0 40px 0;
+  margin: 29px 0 0;
   /* контейнер номеров телефона */
 }
 .header__phone-number-link {
@@ -73,7 +72,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 19px;
   text-transform: uppercase;
   text-decoration: none;
   color: var(--blue-darken-1);
