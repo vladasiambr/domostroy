@@ -1,15 +1,10 @@
-.suggestions {
+.suggestions-container {
   background: var(--gray-light-4);
-  max-width: 1366px;
-  margin: 0 auto;
 }
-.suggestions-container{
-  
+.suggestions-contant {
+  padding-top: 88px;
+  padding-left: 83px;
 }
-.suggestions-contant{
-  padding: 88px 83px;
-}
-
 
 .suggestions__discription {
   padding: 18px 0 35px 21px;
@@ -108,17 +103,14 @@
 }
 
 .watch-all-project {
+  display: inline-block;
   text-decoration: none;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  text-transform: uppercase;
   color: var(--text-color2);
   background: #353d83;
   border-radius: 30px;
   padding: 21px 51px;
-  margin: 32px 0 0 518px;
-
+  margin: 32px 0 144px calc(568px - 83px);
 }

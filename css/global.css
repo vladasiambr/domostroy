@@ -18,6 +18,7 @@
   --active-color: var(--yellow);
   --bacground-link-color: var(--gray-light-1);
   --bacground-section: var(--gray-light-4);
+  --bacground-family-swiper: var(--gray-light-2);
   --text-color: var(--black);
-  --text-color2: var(--white)
+  --text-color2: var(--white);
 }
