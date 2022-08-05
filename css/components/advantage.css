@@ -1,10 +1,12 @@
 .advantage {
   background: url("/images/forast.jpg") no-repeat, rgba(246, 246, 249, 0.8);
-  background-blend-mode: hue; 
+  background-blend-mode: hue;
+}
+.advantage__content {
   padding: 0 78px 0 89px;
 }
 
-.advantage__contant-title {
+.advantage__content-title {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -15,7 +17,7 @@
   padding: 84px 0 51px;
 }
 
-.advantage__contant-advantages {
+.advantage__content-advantages {
   display: inline-grid;
   column-gap: 20px;
   row-gap: 15px;
@@ -24,6 +26,7 @@
 }
 
 .subparahgraph {
+  position: relative;
   background: rgba(255, 255, 255, 0.95);
   box-shadow: 2px 4px 13px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
@@ -31,20 +34,78 @@
   height: 146px;
 }
 
-.advantage__contant-subparahgraph-title {
+.advantage__content-subparahgraph-title {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 21px;
+  margin: 0;
+  padding: 36px 0 17px 44px;
 }
 
-.advantage__contant-subparahgraph-text {
+.advantage__content-subparahgraph-text {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-
+  margin: 0;
+  padding: 0 0 38px 44px;
   color: rgba(0, 0, 0, 0.6);
+}
+
+.advantage__content-subparahgraph-img {
+  position: absolute;
+  top: 23px;
+  right: 20px;
+}
+
+.dvantage__content-vk {
+  background: rgba(246, 246, 249, 0.9);
+  backdrop-filter: blur(8px);
+  display: flex;
+}
+
+.dvantage__content-vk-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  max-width: 609px;
+}
+
+
+.dvantage__content-vk-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding-top: 28px;
+
+}
+
+.dvantage__content-vk-link {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--text-color2);
+  background-color: var(--blue-darken-2);
+  padding: 23px 43px;
+  border-radius: 30px;
+
+}
+
+.dvantage__content-vk-block-content {
+  display:inline-block;
+  padding: 111px 121px 132px 89px;
+}
+.dvantage__content-vk-block-link {
+  display: inline-block;
+  padding: 164px 0 ;
 }

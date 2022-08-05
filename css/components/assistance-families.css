@@ -1,4 +1,4 @@
-.assistance-families__contant {
+.assistance-families__content {
   display: flex;
 }
 
@@ -19,7 +19,6 @@
   font-size: 38px;
   line-height: 42px;
   padding: 79px 115px 0 63px;
-  margin: 0;
 }
 
 .assistance-families__title span {

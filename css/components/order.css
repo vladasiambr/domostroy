@@ -1,0 +1,35 @@
+.order {
+  display: flex;
+  color: var(--bacground-section);
+}
+.order__image {
+  padding: 179px 53px 201px 89px;
+}
+
+.order__content-content {
+  font-family: "Inter";
+  font-style: normal;
+}
+.order__content-title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: var(--text-color);
+}
+
+.order__content-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.6);
+  padding-top: 26px;
+}
+.second{
+  padding-top: 15px;
+}
+.order__content{
+  padding: 179px 153px 26px 0;
+}
+.order__request{
+  padding: 45px 0 0 calc(403px - 53px);
+}
