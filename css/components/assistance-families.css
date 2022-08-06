@@ -9,7 +9,8 @@
 
 .assistance-families__swiper {
   background-color: var(--gray-light-2);
-  width: 100%;
+  width: 674px;
+  height: 461px;
 }
 
 .assistance-families__title {
@@ -25,7 +26,7 @@
   font-weight: 700;
 }
 .request {
-  padding: 52px 0 99px 92px;
+  padding: 52px 0 0 92px;
 }
 
 .request-link {

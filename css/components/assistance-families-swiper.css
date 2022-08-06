@@ -1,3 +1,42 @@
-.swiper-2 {
-  max-width: 674px;
+.swiper-wrapper {
+  max-width: 1366px;
+}
+
+.swiper-wrapper {
+  width: 674px;
+  height: 471px;
+}
+.mySwiper {
+  height: 461px;
+}
+.swiper-pagination {
+  width: 35px;
+  height: 19px;
+  left: 496px;
+  bottom: 48px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  color: #000000;
+}
+
+.swiper-button-prev-1 {
+  left: 50px;
+}
+
+.swiper-button-next-1 {
+  top: 424px;
+  left: 556px;
+  height: 0;
+  width: 40px;
+}
+.swiper-button-prev-1 {
+  top: 424px;
+  left: 420px;
+  height: 0;
+  width: 40px;
+}
+
+.prev {
+  transform: rotate(180deg);
 }
