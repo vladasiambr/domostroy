@@ -1,22 +1,47 @@
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
-p{
+p {
   margin: 0;
 }
+
 :root {
   --blue-darken-1: #212864;
+  --blue-darken-20: #212864 20%;
+  --blue-darken-40: #212864 40%;
   --blue-darken-2: #353d83;
   --blue-darken-3: #15193d;
+
   --white: #ffffff;
+  --white-40: #ffffff 40%;
+  --white-70: #ffffff 70%;
+  --white-80: #ffffff 80%;
+  --white-95: #ffffff 95%;
+
+  --yellow-light-1: #ffc239;
+  --yellow-light-60: #ffc239 60 %;
+  --yellow-light-2: #d79500;
+  --yellow-light-3: #ffb611;
+
   --black: #000000;
-  --yellow-darken-1: #ffc239;
-  --yellow-darken-2: #d79500;
-  --black-2: #000000 60 %;
-  --grey-darken: #333333;
+  --black-20: #000000 20 %;
+  --black-35: #000000 35 %;
+  --black-60: #000000 60 %;
+  --black-70: #000000 70 %;
+  --black-80: #000000 80 %;
+
+  --grey-1: #808080;
+  --grey-2: #a5a5a5;
+  --grey-darken-1: #333333;
   --gray-light-1: #eeeeee;
   --gray-light-2: #f1f1f6;
-  --gray-light-3: #f6f6f9cc;
+  --gray-light-90: #f6f6f9 90%;
+  --gray-light-50: #f6f6f9 80%;
   --gray-light-4: #e5e5e5;
   --lilac: #8c93d1;
 
@@ -27,4 +52,5 @@ p{
   --bacground-family-swiper: var(--gray-light-2);
   --text-color: var(--black);
   --text-color2: var(--white);
+  --text-comments: var(--grey-darken-1);
 }

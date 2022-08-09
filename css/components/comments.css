@@ -1,0 +1,41 @@
+.comments__container {
+  background: var(--gray-light-2);
+  height: 768px;
+}
+.comments__comment-container {
+  background: #ffffff;
+  box-shadow: 2px 8px 26px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 15px 15px;
+  width: 559px;
+  height: 691px;
+}
+
+.review {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #808080;
+  text-align: center;
+  padding: 72px 0 88px;
+}
+
+.comments__container-userName {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: var(--black);
+  text-align: center;
+}
+
+.comments__container-text {
+  padding: 36px 62px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--grey-darken-1);
+}

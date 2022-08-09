@@ -25,18 +25,23 @@
 }
 
 .swiper-button-next-1 {
-  top: 424px;
+  position: absolute;
+  top: 395px;
   left: 556px;
   height: 0;
   width: 40px;
+  z-index: 1;
 }
 .swiper-button-prev-1 {
-  top: 424px;
+  position: absolute;
+  top: 395px;
   left: 420px;
   height: 0;
   width: 40px;
+  z-index: 1;
 }
 
 .prev {
   transform: rotate(180deg);
 }
+
