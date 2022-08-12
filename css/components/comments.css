@@ -5,7 +5,7 @@
 .comments__comment-container {
   background: #ffffff;
   box-shadow: 2px 8px 26px rgba(0, 0, 0, 0.1);
-  border-radius: 0 0 15px 15px;
+  border-radius: 15px 15px 15px 15px;
   width: 559px;
   height: 691px;
 }
@@ -38,4 +38,8 @@
   font-size: 16px;
   line-height: 20px;
   color: var(--grey-darken-1);
+}
+
+.comments__container-text{
+  border-bottom: 1px solid var(--yellow-light-60);
 }

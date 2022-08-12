@@ -23,6 +23,10 @@
 .swiper-button-prev-1 {
   left: 50px;
 }
+.swiper-button-prev-1,
+.swiper-button-next-1 {
+  cursor: pointer;
+}
 
 .swiper-button-next-1 {
   position: absolute;
@@ -44,4 +48,3 @@
 .prev {
   transform: rotate(180deg);
 }
-
