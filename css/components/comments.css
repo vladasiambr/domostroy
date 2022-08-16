@@ -5,9 +5,10 @@
 .comments__comment-container {
   background: #ffffff;
   box-shadow: 2px 8px 26px rgba(0, 0, 0, 0.1);
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 0 0px 15px 15px;
   width: 559px;
   height: 691px;
+  position: relative;
 }
 
 .review {
@@ -40,6 +41,21 @@
   color: var(--grey-darken-1);
 }
 
-.comments__container-text{
-  border-bottom: 1px solid var(--yellow-light-60);
+.comments__border {
+  border-bottom: 2px solid rgba(255, 194, 57, 0.6);
+  width: 37px;
+  position: absolute;
+  left: 261px;
+}
+
+.comments__order-text {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  padding-top: 26px;
+  color: var(--grey-darken-1);
 }

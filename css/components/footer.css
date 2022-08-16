@@ -1,0 +1,110 @@
+.footer {
+  background-color: var(--light-black);
+  position: relative;
+  padding-left: 72px;
+}
+.footer__border {
+  width: 1250px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: 58px;
+}
+.footer__information {
+  display: flex;
+}
+
+.footer__logo {
+  padding: 64px 159px 85px 0;
+}
+
+.footer__logo-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+  text-align: center;
+}
+
+.footer__company {
+  padding: 74px 70px 79px 0;
+}
+
+.company-footer {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.footer__email {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--white);
+}
+.footer__phone-number {
+  display: flex;
+  flex-direction: column;
+  padding: 76px 108px 103px 0;
+}
+.footer__phone-number-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer__connection {
+  padding: 76px 0px 76px 0;
+}
+
+.footer__message-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer__message {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  padding-top: 18px;
+}
+
+.footer__message-link {
+  text-decoration: none;
+}
+
+.footer__catalog {
+  display: flex;
+}
+
+.footer__catalog-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--white);
+  padding-bottom: 29px;
+}
+.footer__catalog-list {
+  margin: 0;
+  padding-top: 40px;
+  list-style-type: none;
+}

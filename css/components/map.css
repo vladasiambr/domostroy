@@ -1,0 +1,112 @@
+.map {
+  position: relative;
+}
+.map__tadle-info {
+  position: absolute;
+  width: 581px;
+  height: 639px;
+  left: 122px;
+  top: 0px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(13px);
+  border-radius: 0px 0px 20px 20px;
+  padding-left: 64px;
+}
+
+.map__tadle-info-text {
+  position: relative;
+  font-family: "Inter";
+  font-style: normal;
+}
+.map__tadle-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 51px;
+  text-transform: uppercase;
+  color: var(--black);
+  padding: 92px 0 34px 0;
+}
+.map__tadle-address {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: var(--black);
+  padding-bottom: 15px;
+}
+.map__tadle-address-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--black-80);
+}
+.map__tadle-address-text-top {
+  padding-bottom: 9px;
+}
+.map__tadle-address-text-contact {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  padding: 53px 0 19px;
+  color: var(--black-80);
+}
+
+.map__table-phone-link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: var(--black-80);
+}
+.map__table-phone-link {
+  padding-bottom: 10px;
+}
+.map__table-phone {
+  display: flex;
+  flex-direction: column;
+}
+.map__message-email {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--black-80);
+}
+.map__message-email-container {
+  padding-bottom: 14px;
+}
+.map__message-link {
+  text-decoration: none;
+}
+.map__message {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 304px;
+  top: 378px;
+}
+.map__message-container {
+  width: 204px;
+  display: flex;
+  justify-content: space-between;
+}
+.question {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display:inline-block;
+  color: var(--blue-darken-1);
+  background: var(--yellow-light-1);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 18px 54px;
+}
+.map__quesetion{
+padding-top: 68px;
+}
