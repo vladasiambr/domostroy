@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -7,6 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./images/favicon/site.webmanifest">
+  <link rel="manifest" href="manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
   <title>ДомСтрой</title>
 </head>
 
@@ -35,19 +43,19 @@
           </button>
           <div class="header__message">
             <a class="header__message-link" href="#">
-              <img src="./images/icons/youtube 1.svg" alt="youtube">
+              <img src="./images/icons/youtube.svg " alt="youtube">
             </a>
             <a class="header__message-link" href="#">
-              <img src="./images/icons/instagram 1.svg" alt="instagram">
+              <img src="./images/icons/instagram.svg" alt="instagram">
             </a>
             <a class="header__message-link" href="#">
-              <img src="./images/icons/vk 1.svg" alt="vk">
+              <img src="./images/icons/vk.svg" alt="vk">
             </a>
             <a class="header__message-link" href="#">
-              <img src="./images/icons/whatsapp 1.svg" alt="whatsapp">
+              <img src="./images/icons/whatsapp.svg" alt="whatsapp">
             </a>
             <a class="header__message-link" href="#">
-              <img src="./images/icons/telegram 1.svg" alt="telegram">
+              <img src="./images/icons/telegram.svg" alt="telegram">
             </a>
           </div>
         </div>
@@ -75,48 +83,43 @@
           </li>
         </ul>
       </nav>
-
-      <nav class="header__catalog">
-        <ul class="header__catalog-list">
-          <li class="header__catalog-list-item">
-            <a class="header__catalog-link" href="#">Каталог домов</a>
+    </header>
+    <section class="catalog">
+      <nav class="catalog__navigation">
+        <ul class="catalog__list">
+          <li class="catalog__list-item">
+            <a class="catalog__link" href="#">Каталог домов</a>
           </li>
-          <li class="header__catalog-list-item">
-            <a class="header__catalog-link" href="#">Каталог бытовок</a>
+          <li class="catalog__list-item">
+            <a class="catalog__link" href="#">Каталог бытовок</a>
           </li>
-          <li class="header__catalog-list-item">
-            <a class="header__catalog-link" href="#">Каталог беседок</a>
+          <li class="catalog__list-item">
+            <a class="catalog__link" href="#">Каталог беседок</a>
           </li>
-          <li class="header__catalog-list-item">
-            <a class="header__catalog-link" href="#">Каталог бань</a>
+          <li class="catalog__list-item">
+            <a class="catalog__link" href="#">Каталог бань</a>
           </li>
-          <li class="header__catalog-list-item">
-            <a class="header__catalog-link" href="#">Каталог хоз. построек</a>
+          <li class="catalog__list-item">
+            <a class="catalog__link" href="#">Каталог хоз. построек</a>
           </li>
         </ul>
       </nav>
-
-
-      <div class="header__description">
-        <div class="header__description-description">
-          <h2 class="header__description-logo">СТРОИТЕЛЬСТВО ДАЧНЫХ ДОМОВ<br>
+      <div class="catalog__description">
+        <div class="catalog__description-description">
+          <h2 class="catalog__description-logo">СТРОИТЕЛЬСТВО ДАЧНЫХ ДОМОВ<br>
             И КОТТЕДЖЕЙ</h2>
-          <p class="header__description-text">На участок поставляются готовые модули,<br>
+          <p class="catalog__description-text">На участок поставляются готовые модули,<br>
             производится их монтаж в короткие сроки. <br>
             Мы гарантируем выполнение всех взятых на себя<br>
             обязательств и доступные цены.</p>
         </div>
-        <div class="header__pric-content">
-          <a class="header__pric" href="#">
-            <div class="header__button-calculate">
-              <img class="header__button-calculate-img" src="/images/icons/стрелка.svg" alt="button-calculate">
-            </div>
-            <p class="header__pric-text">РАССЧИТАТЬ СТОИМОСТЬ</p>
+        <div class="catalog__pric-content">
+          <a class="catalog__pric" href="#"><img src="./images/svg/strelka-svg.svg" alt="button-calculate">
+            <span class="catalog__pric-text">РАССЧИТАТЬ СТОИМОСТЬ</span>
+          </a>
         </div>
-        </a>
       </div>
-
-    </header>
+    </section>
 
     <section class="suggestions">
       <div class="suggestions-container">
@@ -134,8 +137,7 @@
         <div class="wrapper">
           <div class="swiper products__swiper">
             <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide">
+              <div class="swiper-slide swiper-slide--1 ">
                 <div class="products">
                   <img class="frame-house" src="./images/swiper/Frame-house.jpg" alt="Frame-house">
                   <div class="suggestions__discription">
@@ -151,7 +153,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="products">
-                  <img class="frame-house" src="./images/swiper/Frame-house 2.jpg" alt="Frame-house">
+                  <img class="frame-house" src="./images/swiper/Frame-house2.jpg" alt="Frame-house">
                   <div class="suggestions__discription">
                     <h4 class="name-products">Каркасный дом с<br> балконом LK-2</h4>
                     <div class="discription-products">
@@ -165,7 +167,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="products">
-                  <img class="frame-house" src="./images/swiper/Frame-house 3.jpg" alt="Frame-house">
+                  <img class="frame-house" src="./images/swiper/Frame-house3.jpg" alt="Frame-house">
                   <div class="suggestions__discription">
                     <h4 class="name-products">Каркасный дом с<br> балконом LK-2</h4>
                     <div class="discription-products">
@@ -179,7 +181,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="products">
-                  <img class="frame-house" src="./images/swiper/Frame-house 4.jpg" alt="Frame-house">
+                  <img class="frame-house" src="./images/swiper/Frame-house4.jpg" alt="Frame-house">
                   <div class="suggestions__discription">
                     <h4 class="name-products">Каркасный дом с<br> балконом LK-2</h4>
                     <div class="discription-products">
@@ -194,10 +196,10 @@
             </div>
           </div>
           <div class="swiper-button-prev">
-            <img class="button-swiper" src="./images/svg/Vector 161.svg" alt="prev">
+            <img class="button-swiper" src="./images/svg/VectorPrev.svg" alt="prev">
           </div>
           <div class="swiper-button-next">
-            <img class="button-swiper" src="./images/svg/Vector 160.svg" alt="next">
+            <img class="button-swiper" src="./images/svg/VectorNext.svg" alt="next">
           </div>
         </div>
         <div class="watch-all-project-container">
@@ -212,30 +214,31 @@
         <div class="assistance-families__image">
           <img src="./images/family.jpg" alt="family">
         </div>
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="assistance-families__swiper">
-                <h3 class="assistance-families__title">
-                  Мы работаем с<br>
-                  <span>материнским капиталом!</span>
-                </h3>
-                <div class="request">
-                  <a href="#" class="request-link">Оставить<br> заявку</a>
+        <div class="wrapper-family">
+          <div class="swiper swiper__family">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide  swiper-slide--famaly">
+                <div class="assistance-families__slide">
+                  <h3 class="assistance-families__title">
+                    Мы работаем с<br>
+                    <span>материнским капиталом!</span>
+                  </h3>
+                  <div class="request">
+                    <a href="#" class="request-link">Оставить<br> заявку</a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="navig">
             <div class=" swiper-button-next-1">
-              <img class="button-swiper-1" src="./images/svg/Arrow 9.svg" alt="next">
+              <img class="button-swiper-1" src="./images/svg/Arrow.svg" alt="next">
             </div>
             <div class=" swiper-button-prev-1">
-              <img class="button-swiper-1 prev" src="./images/svg/Arrow 9.svg" alt="prev">
+              <img class="button-swiper-1" src="./images/svg/Arrow10.svg" alt="prev">
             </div>
             <div class="swiper-pagination"></div>
           </div>
         </div>
+      </div>
     </section>
     <section class="advantage">
       <div class="advantage__content">
@@ -262,14 +265,14 @@
           <div class="advantage__content-subparagraph subparahgraph">
             <h4 class="advantage__content-subparahgraph-title">Экологически чистый материал</h4>
             <p class="advantage__content-subparahgraph-text">Сертифицированные, экологичные материалы от <br> проверенных поставщиков.</p>
-            <img class="advantage__content-subparahgraph-img" src="./images/advantage//goal 2.png" alt="goal">
+            <img class="advantage__content-subparahgraph-img" src="./images/advantage//goal.png" alt="goal">
           </div>
           <div class="advantage__content-subparagraph subparahgraph">
             <h4 class="advantage__content-subparahgraph-title">Фотоотчет процесса строительства</h4>
             <p class="advantage__content-subparahgraph-text">Бесплатный фото или видео отчет <br>
               (по договорённости)
             </p>
-            <img class="advantage__content-subparahgraph-img" src="./images/advantage/running-man 2.png" alt="running-man">
+            <img class="advantage__content-subparahgraph-img" src="./images/advantage/running-man.png" alt="running-man">
           </div>
           <div class="advantage__content-subparagraph subparahgraph">
             <h4 class="advantage__content-subparahgraph-title">Гарантийное обслуживание <br> любой постройки</h4>
@@ -280,14 +283,13 @@
             <h4 class="advantage__content-subparahgraph-title">Более 7 лет опыта</h4>
             <p class="advantage__content-subparahgraph-text">Современное и качественное строительство, <br> опытными бригадами.
             </p>
-            <img class="advantage__content-subparahgraph-img" src="./images/advantage/certificate-2.png" alt="certificate">
+            <img class="advantage__content-subparahgraph-img" src="./images/advantage/certificate.png" alt="certificate">
           </div>
           <div class="advantage__content-subparagraph subparahgraph">
             <h4 class="advantage__content-subparahgraph-title">Индивидуальные проекты</h4>
             <p class="advantage__content-subparahgraph-text">Возможны изменения проектов из каталога и <br> строительство по индивидуальным планам.</p>
             <img class="advantage__content-subparahgraph-img" src="./images/advantage/quality.png" alt="quality">
           </div>
-
         </div>
       </div>
       <div class="dvantage__content-vk">
@@ -314,36 +316,95 @@
           </p>
         </div>
         <div class="order__request">
-          <a href="#" class="request-link">Оставить<br> заявку</a>
+          <a href="#" class="order__request-link">Связаться с нами</a>
         </div>
       </div>
     </section>
     <section class="comments">
-      <div class="comments__container">
-        <div class="comments__comment-container">
-          <p class="review">
-            &#8226; Отзывы &#8226;
-          </p>
-          <h4 class="comments__container-userName">Джон Джон Джон</h4>
-          <div class="comments__container-text">
-            <p class="comments__container-text-1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
-            </p>
-            <br>
-            <p class="comments__container-text-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
-            </p>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="comments__container">
+              <div class="comments__comment-container">
+                <p class="review">
+                  &#8226; Отзывы &#8226;
+                </p>
+                <h4 class="comments__container-userName">Джон Джон Джон</h4>
+                <div class="comments__container-text">
+                  <p class="comments__container-text-1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
+                  </p>
+                  <br>
+                  <p class="comments__container-text-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
+                  </p>
+                </div>
+                <div class="comments__border"></div>
+                <div class="comments__order">
+                  <p class="comments__order-text">Изготовление каркасного <br> дома с балконом</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="comments__border"></div>
-          <div class="comments__order">
-            <p class="comments__order-text">Изготовление каркасного <br> дома с балконом</p>
+          <div class="swiper-slide">
+            <div class="comments__container">
+              <div class="comments__comment-container">
+                <p class="review">
+                  &#8226; Отзывы &#8226;
+                </p>
+                <h4 class="comments__container-userName">Джон Джон Джон</h4>
+                <div class="comments__container-text">
+                  <p class="comments__container-text-1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
+                  </p>
+                  <br>
+                  <p class="comments__container-text-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
+                  </p>
+                </div>
+                <div class="comments__border"></div>
+                <div class="comments__order">
+                  <p class="comments__order-text">Изготовление каркасного <br> дома с балконом</p>
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="swiper-slide">
+            <div class="comments__container">
+              <div class="comments__comment-container">
+                <p class="review">
+                  &#8226; Отзывы &#8226;
+                </p>
+                <h4 class="comments__container-userName">Джон Джон Джон</h4>
+                <div class="comments__container-text">
+                  <p class="comments__container-text-1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
+                  </p>
+                  <br>
+                  <p class="comments__container-text-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
+                  </p>
+                </div>
+                <div class="comments__border"></div>
+                <div class="comments__order">
+                  <p class="comments__order-text">Изготовление каркасного <br> дома с балконом</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-button-prev-2">
+          <img class="button-swiper-2" src="./images/svg/VectorPrev.svg" alt="prev">
+        </div>
+        <div class="swiper-button-next-2">
+          <img class="button-swiper-2" src="./images/svg/VectorNext.svg" alt="next">
         </div>
       </div>
     </section>
     <section class="map">
       <div class="map__yandex">
-        <iframe class="map__yandex-map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A989a7ef7a61ca14947f7abc44478e1cf6d5ede4725a6c07eea666757d38ad2de&amp;source=constructor" width="1366" height="768" frameborder="0"></iframe>
+        <iframe class="map__yandex-map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A989a7ef7a61ca14947f7abc44478e1cf6d5ede4725a6c07eea666757d38ad2de&amp;source=constructor" width="100%" height="768" frameborder="0"></iframe>
       </div>
       <div class="map__tadle-info">
         <div class="map__tadle-info-text">
@@ -362,19 +423,19 @@
             </div>
             <div class="map__message-container">
               <a class="map__message-link" href="#">
-                <img src="./images/icons/youtube 1.svg" alt="youtube">
+                <img src="./images/icons/youtube.svg" alt="youtube">
               </a>
               <a class="map__message-link" href="#">
-                <img src="./images/icons/instagram 1.svg" alt="instagram">
+                <img src="./images/icons/instagram.svg" alt="instagram">
               </a>
               <a class="map__message-link" href="#">
-                <img src="./images/icons/vk 1.svg" alt="vk">
+                <img src="./images/icons/vk.svg" alt="vk">
               </a>
               <a class="map__message-link" href="#">
-                <img src="./images/icons/whatsapp 1.svg" alt="whatsapp">
+                <img src="./images/icons/whatsapp.svg" alt="whatsapp">
               </a>
               <a class="map__message-link" href="#">
-                <img src="./images/icons/telegram 1.svg" alt="telegram">
+                <img src="./images/icons/telegram.svg" alt="telegram">
               </a>
             </div>
           </div>
@@ -405,46 +466,203 @@
           <p class="footer__message-text">Мы в социальных сетях:</p>
           <div class="footer__message">
             <a class="footer__message-link" href="#">
-              <img src="./images/icons/youtube 1.svg" alt="youtube">
+              <img src="./images/icons/youtube.svg" alt="youtube">
             </a>
             <a class="footer__message-link" href="#">
-              <img src="./images/icons/instagram 1.svg" alt="instagram">
+              <img src="./images/icons/instagram.svg" alt="instagram">
             </a>
             <a class="footer__message-link" href="#">
-              <img src="./images/icons/vk 1.svg" alt="vk">
+              <img src="./images/icons/vk.svg" alt="vk">
             </a>
             <a class="footer__message-link" href="#">
-              <img src="./images/icons/whatsapp 1.svg" alt="whatsapp">
+              <img src="./images/icons/whatsapp.svg" alt="whatsapp">
             </a>
             <a class="footer__message-link" href="#">
-              <img src="./images/icons/telegram 1.svg" alt="telegram">
+              <img src="./images/icons/telegram.svg" alt="telegram">
             </a>
           </div>
         </div>
       </div>
-      <div class="footer__border">
-      </div>
+      <div class="footer__border"></div>
       <div class="footer__catalog">
-        <ul class="footer__catalog-list">
-          <h3 class="footer__catalog-title">ПРОДУКЦИЯ</h3>
-          <li class="footer__catalog-products">Каркасные дома</li>
-          <li class="footer__catalog-products">Модульные дома</li>
-          <li class="footer__catalog-products">Бани “Под ключ”</li>
-          <li class="footer__catalog-products">Беседки</li>
-          <li class="footer__catalog-products">Бытовки (утепленные)</li>
-          <li class="footer__catalog-products">Хоз. постройки <br>
-            (без утепления)</li>
-        </ul>
-        <ul class="footer__catalog-list">
-          <h3 class="footer__catalog-title">КОМПЛЕКТАЦИЯ</h3>
-          <li class="footer__catalog-products">Комплектация домов</li>
-          <li class="footer__catalog-products">Комплектация бань</li>
-          <li class="footer__catalog-products">Комплектация беседок</li>
-          <li class="footer__catalog-products">Комплектация бытовок</li>
-          <li class="footer__catalog-products">Комплектация <br> хоз. построек</li>
-        </ul>
+        <nav class="footer__navigation">
+          <ul class="footer__navigation-list footer__navigation--first"> <span class="footer__navigation-title">ПРОДУКЦИЯ</span>
+            <li><a href="#" class="footer__navigation-link">Каркасные дома</a></li>
+            <li><a href="#" class="footer__navigation-link">Модульные дома</a></li>
+            <li><a href="#" class="footer__navigation-link">Бани “Под ключ”</a></li>
+            <li><a href="#" class="footer__navigation-link">Беседки</a></li>
+            <li><a href="#" class="footer__navigation-link">Бытовки (утепленные)</a></li>
+            <li><a href="#" class="footer__navigation-link pernos">Хоз. постройки <br>(без утепления)</a></li>
+          </ul>
+          <ul class="footer__navigation-list footer__navigation--second"><span class="footer__navigation-title">КОМПЛЕКТАЦИЯ</span>
+            <li><a href="#" class="footer__navigation-link">Комплектация домов</a></li>
+            <li><a href="#" class="footer__navigation-link">Комплектация бань</a></li>
+            <li><a href="#" class="footer__navigation-link">Комплектация беседок</a></li>
+            <li><a href="#" class="footer__navigation-link">Комплектация бытовок</a></li>
+            <li><a href="#" class="footer__navigation-link">Комплектация <br>хоз. построек </a></li>
+          </ul>
+          <ul class="footer__navigation-list footer__navigation--third"><span class="footer__navigation-title">ЗАКАЗЧИКУ</span>
+            <li><a href="#" class="footer__navigation-link pernos">Индивидуальное <br> строительство</a></li>
+            <li><a href="#" class="footer__navigation-link">Фиксированные цены</a></li>
+            <li><a href="#" class="footer__navigation-link pernos ">Дистанционное <br> оформление договора</a></li>
+            <li><a href="#" class="footer__navigation-link">Материнский капитал</a></li>
+            <li><a href="#" class="footer__navigation-link">Порядок оплаты</a></li>
+            <li><a href="#" class="footer__navigation-link">Процесс заказа</a></li>
+          </ul>
+          <ul class="footer__navigation-list"><span class="footer__navigation-title">ПОЛЕЗНО</span>
+            <li><a href="#" class="footer__navigation-link">Доставка и сборка</a></li>
+            <li><a href="#" class="footer__navigation-link">Контакты</a></li>
+            <li><a href="#" class="footer__navigation-link">Наши работы</a></li>
+          </ul>
+        </nav>
+        <div class="footer__container-button-link">
+          <a href="#" class="footer__button-link footer__button-link-calculator">ЧЕСТНЫЙ КАЛЬКУЛЯТОР <br> БЕСЕДОК</a>
+          <a href="#" class="footer__button-link footer__button-link-connection">СВЯЗАТЬСЯ С НАМИ</a>
+        </div>
+      </div>
+      <div class="footer__law">
+        <p class="footer__law-text">Copyright © “ДОМСТРОЙ” 2022. Все права защищены.</p>
+        <p class="footer__law-text">Политика конфиденциальности</p>
+        <p class="footer__law-text">Пользовательское соглашение</p>
+        <p class="footer__law-text">Cookies</p>
       </div>
     </footer>
+  </div>
+  <div class="container__mobile">
+    <header class="header__mobile">
+      <div class="logo__mobile">
+        <h3 class="logo__mobile-title">СТРОИТЕЛЬНАЯ КОМПАНИЯ</h3>
+        <img class="logo" src="./images/img-mobile/logo-mobile.png" alt="logo">
+      </div>
+      <button class="hamburger">
+        <img src="./images/img-mobile/hamburger.svg" alt="hamburger">
+      </button>
+    </header>
+    <section class="description__mobile">
+      <div class="description__mobile-title-container">
+        <h1 class="description__mobile-title-text">СТРОИТЕЛЬСТВО ДАЧНЫХ ДОМОВ И КОТТЕДЖЕЙ</h1>
+      </div>
+      <div class="description__mobile-description-container">
+        <p class="description__mobile-description-text">
+          На участок поставляются готовые модули, производится их монтаж в короткие сроки. <br>
+          Мы гарантируем выполнение всех взятых на себя обязательств и доступные цены.
+        </p>
+      </div>
+      <div class="calculator__mobile-link-container">
+        <a href="#" class="calculator__mobile-link"><img src="./images/img-mobile/strelka-mobile.svg" alt="calculator-prise">
+          <span class="text-link">РАССЧИТАТЬ СТОИМОСТЬ</span>
+        </a>
+      </div>
+    </section>
+    <section class="products__mobile">
+      <h3 class="products__mobile-title">Предложения для вас</h3>
+      <div class="products__mobile-filter">
+        <ul class="products__mobile-filter-list">
+          <div class="grid1">
+            <li class="find-filter find-filter--active"><a class="find-filter-link" href="#">Каркасные дома</a></li>
+            <li class="find-filter"><a class="find-filter-link" href="#">Бани</a></li>
+          </div>
+          <div class="grid2">
+            <li class="find-filter"><a class="find-filter-link" href="#">Беседки</a></li>
+            <li class="find-filter"><a class="find-filter-link" href="#">Бытовки</a></li>
+          </div>
+          <div class="grid3">
+            <li class="find-filter"><a class="find-filter-link" href="#">Хоз. постройки</a></li>
+          </div>
+        </ul>
+      </div>
+      <div class="mobile-first-swiper">
+        <div class="wrapper">
+          <div class="swiper products__swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="products">
+                  <img class="frame-house" src="./images/swiper/Frame-house.jpg" alt="Frame-house">
+                  <div class="suggestions__discription">
+                    <h4 class="name-products">Каркасный дом с<br> балконом LK-2</h4>
+                    <div class="discription-products">
+                      <p class="size">Размер: <span class="numbers-size">4х6 м</span></p>
+                      <p class="square">Площадь:<span class="numbers-square">34.8 м2</span></p>
+                      <p class="rooms">Количество комнат: <span class="numbers-rooms">3 шт</span></p>
+                      <p class="price">940 000 ₽</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="products">
+                  <img class="frame-house" src="./images/swiper/Frame-house2.jpg" alt="Frame-house">
+                  <div class="suggestions__discription">
+                    <h4 class="name-products">Каркасный дом с<br> балконом LK-2</h4>
+                    <div class="discription-products">
+                      <p class="size">Размер: <span class="numbers-size">4х6 м</span></p>
+                      <p class="square">Площадь:<span class="numbers-square">34.8 м2</span></p>
+                      <p class="rooms">Количество комнат: <span class="numbers-rooms">3 шт</span></p>
+                      <p class="price">940 000 ₽</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="products">
+                  <img class="frame-house" src="./images/swiper/Frame-house3.jpg" alt="Frame-house">
+                  <div class="suggestions__discription">
+                    <h4 class="name-products">Каркасный дом с<br> балконом LK-2</h4>
+                    <div class="discription-products">
+                      <p class="size">Размер: <span class="numbers-size">4х6 м</span></p>
+                      <p class="square">Площадь:<span class="numbers-square">34.8 м2</span></p>
+                      <p class="rooms">Количество комнат: <span class="numbers-rooms">3 шт</span></p>
+                      <p class="price">940 000 ₽</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="products">
+                  <img class="frame-house" src="./images/swiper/Frame-house4.jpg" alt="Frame-house">
+                  <div class="suggestions__discription">
+                    <h4 class="name-products">Каркасный дом с<br> балконом LK-2</h4>
+                    <div class="discription-products">
+                      <p class="size">Размер: <span class="numbers-size">4х6 м</span></p>
+                      <p class="square">Площадь:<span class="numbers-square">34.8 м2</span></p>
+                      <p class="rooms">Количество комнат: <span class="numbers-rooms">3 шт</span></p>
+                      <p class="price">940 000 ₽</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="products__mobile-all">
+        <a class="all-projects-link" href="#">СМОТРЕТЬ ВСЕ ПРОЕКТЫ</a>
+      </div>
+    </section>
+    <section class="family__mobile-container">
+      <div class="wrapper-family">
+        <div class="swiper swiper__family">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide swiper-slide--famaly">
+                <div class="family__container-information">
+                  <h3 class="family__title">Мы работаем с <b>материнским капиталом!</b> </h3>
+                  <div class="button-link-container">
+                    <a href="#" class="button-link">Оставить <br> заявку</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next-1">
+        <img class="button-swiper-1" src="./images/svg/Arrow.svg" alt="next">
+      </div>
+      <div class="swiper-button-prev-1">
+        <img class="button-swiper-1" src="./images/svg/Arrow10.svg" alt="prev">
+      </div>
+      <div class="swiper-pagination"></div>
+
+    </section>
   </div>
   <!-- JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

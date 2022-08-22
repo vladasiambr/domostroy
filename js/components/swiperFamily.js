@@ -1,4 +1,4 @@
-var swiper = new Swiper(".mySwiper", {
+new Swiper(".swiper__family", {
   pagination: {
     el: ".swiper-pagination",
     type: "fraction",

@@ -41,8 +41,9 @@
 
 .products {
   margin-top: 32px;
-  width: 284px;
-  height: 355px;
+  display: block;
+  height: auto;
+  width: 285px;
   background: #ffffff;
   box-shadow: 3px 4px 33px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
@@ -67,10 +68,6 @@
 }
 .discription-products p {
   margin: 0;
-}
-.frame-house {
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
 }
 
 .price {
@@ -101,7 +98,10 @@
 .numbers-rooms {
   padding-left: 82px;
 }
-
+.watch-all-project-container {
+  text-align: center;
+  padding-bottom: 124px;
+}
 .watch-all-project {
   display: inline-block;
   text-decoration: none;
@@ -112,5 +112,20 @@
   background: #353d83;
   border-radius: 30px;
   padding: 21px 51px;
-  margin: 32px 0 144px calc(568px - 83px);
+  /* margin: 32px 0 144px calc(568px - 83px); */
+  text-align: center;
+}
+@media screen and (max-width: 1160px) {
+  .suggestions-content {
+  }
+  .suggestions__building {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 700px;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+  .suggestions-title {
+    text-align: center;
+  }
 }

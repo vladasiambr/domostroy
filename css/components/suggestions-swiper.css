@@ -1,7 +1,10 @@
 .products__swiper {
   max-width: 1200px;
+  height: 417px;
 }
-
+.swiper-wrapper {
+  height: 355px;
+}
 .wrapper {
   position: relative;
 }
@@ -20,9 +23,24 @@
 }
 .swiper-button-prev {
   left: 47px;
-  top: 209px; 
+  top: 209px;
 }
 
 .swiper-slide .swiper-slide-active {
   width: 305px;
+}
+
+
+@media screen and (max-width: 375px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+  .wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  .swiper-slide {
+    width: 285px;
+  }
 }

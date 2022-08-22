@@ -71,10 +71,10 @@
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
+  line-height: 24px;
   text-transform: uppercase;
   text-decoration: none;
   color: var(--blue-darken-1);
-  padding-bottom: 8px;
   /* номера телефонов */
 }
 
@@ -117,10 +117,10 @@
 }
 
 .header__menu-list {
-  list-style-type: none;
-  margin: 0;
   display: flex;
   justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
   padding: 18px 112px 22px 90px;
 }
 .header__menu-link {
@@ -129,102 +129,32 @@
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 17px;
   color: #ffffff;
 }
+/* синий контейнер */
 
-.header__catalog {
-  height: 45px;
-  background: #8c93d1;
-}
-.header__catalog-list {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-between;
-  padding: 13px 116px 15px 90px;
-  margin: 0;
-}
-
-.header__catalog-link {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  color: #ffffff;
-  text-decoration: none;
-  border-right: 1px solid rgba(255, 255, 255, 0.4);
-  padding-right: 50px;
+@media screen and (max-width: 1266px) {
+  .header__company,
+  .header__logo {
+    margin-right: 50px;
+  }
+  .header__catalog-link {
+    padding-right: 25px;
+  }
+  .header__information {
+    padding: 0 28px;
+  }
 }
 
-.header__catalog-list-item:last-child a {
-  border: none;
-}
-
-.header__description {
-  padding-left: 89px;
-  padding-top: 68px;
-  background: url("/images/main\ Img.jpg") no-repeat, rgba(0, 0, 0, 0.35);
-  background-position-y: -45px;
-  height: 484px;
-  background-blend-mode: multiply;
-}
-
-.header__photo {
-  transform: translateY(-45px);
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-}
-
-.header__description-logo {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 55px;
-  color: #ffffff;
-  margin-bottom: 17px;
-}
-
-.header__description-text {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-
-  color: rgba(255, 255, 255, 0.8);
-}
-.header__pric {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-}
-.header__pric-content {
-  display: flex;
-  padding-top: 46px;
-}
-.header__button-calculate {
-  border: 2px solid #a5a5a5;
-  border-radius: 50%;
-  background: transparent;
-  padding: 0;
-}
-
-.header__button-calculate-img {
-  padding: 27px 34px;
-}
-.header__pric-text {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #ffffff;
-  padding-left: 24px;
-}
-
-.header__description-text {
-  padding-top: 16px;
+@media screen and (max-width: 992px) {
+  .header__company,
+  .header__logo {
+    margin-right: 10px;
+  }
+  .header__information {
+    padding: 0 10px;
+  }
+  .header__catalog-list {
+    padding: 13px 50px 15px 50px;
+  }
 }

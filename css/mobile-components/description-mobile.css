@@ -1,0 +1,44 @@
+.description__mobile {
+  font-family: "Inter";
+  font-style: normal;
+  background: url("../../images/img-mobile/home-description.jpg") no-repeat,
+    rgba(0, 0, 0, 0.35);
+  background-blend-mode: multiply;
+}
+.description__mobile-title-container {
+  padding: 125px 16px 25px 27px;
+}
+
+.description__mobile-title-text {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 40px;
+  color: var(--white);
+}
+.description__mobile-description-container {
+  padding: 0 27px;
+}
+.description__mobile-description-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.calculator__mobile-link-container {
+  padding: 128px 0 169px 27px;
+}
+.calculator__mobile-link {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: var(--white);
+}
+.text-link {
+  padding-left: 19px;
+}

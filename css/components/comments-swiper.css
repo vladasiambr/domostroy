@@ -1,0 +1,27 @@
+.swiper-container {
+  max-width: 1366px;
+  height: 768px;
+  overflow: hidden;
+  position: relative;
+}
+.swiper-slide {
+  width: 559px;
+}
+.swiper-button-prev-2,
+.swiper-button-next-2 {
+  position: absolute;
+  display: block;
+  z-index: 1;
+}
+.button-swiper-2 {
+  width: 28px;
+  height: 75px;
+}
+.swiper-button-prev-2 {
+  left: 304px;
+  top: 308px;
+}
+.swiper-button-next-2 {
+  right: 306px;
+  top: 308px;
+}

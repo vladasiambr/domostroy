@@ -1,0 +1,86 @@
+.catalog__navigation {
+  height: 45px;
+  background: #8c93d1;
+}
+.catalog__list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 13px 116px 15px 90px;
+  margin: 0;
+}
+/* сиреневый контейнер  */
+.catalog__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  text-decoration: none;
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+  padding-right: 50px;
+}
+
+.catalog__list-item:last-child a {
+  border: none;
+}
+
+.catalog__description {
+  padding-left: 89px;
+  padding-top: 68px;
+  background: url("../../images/main\ Img.jpg") no-repeat, rgba(0, 0, 0, 0.35);
+  background-position-y: -45px;
+  height: 484px;
+  background-blend-mode: multiply;
+}
+
+.catalog__photo {
+  transform: translateY(-45px);
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+.catalog__description-logo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  color: #ffffff;
+  margin-bottom: 17px;
+}
+
+.catalog__description-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: rgba(255, 255, 255, 0.8);
+}
+.catalog__pric {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.catalog__pric-content {
+  padding-top: 46px;
+}
+
+
+.catalog__pric-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding-left: 24px;
+}
+
+.catalog__description-text {
+  padding-top: 16px;
+}

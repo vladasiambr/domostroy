@@ -1,0 +1,31 @@
+.family__mobile-container {
+  background: url("../../images/img-mobile/family-mobile.jpg") no-repeat;
+  font-family: "Inter";
+  font-style: normal;
+}
+.family__container-information {
+  background-color: rgba(241, 241, 246, 0.5);
+}
+.family__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: var(--black);
+  padding: 91px 28px 334px 27px;
+}
+.button-link-container{
+  padding: 0 26px 130px 214px;
+}
+.button-link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d79500;
+  border-radius: 50%;
+  padding: 49px 27px 48px 26px;
+}
+

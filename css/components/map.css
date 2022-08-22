@@ -100,13 +100,17 @@
   line-height: 19px;
   text-transform: uppercase;
   text-decoration: none;
-  display:inline-block;
+  display: inline-block;
   color: var(--blue-darken-1);
   background: var(--yellow-light-1);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
   padding: 18px 54px;
 }
-.map__quesetion{
-padding-top: 68px;
+.map__quesetion {
+  padding-top: 68px;
+}
+
+.map__yandex-map {
+  max-width: 1366px;
 }

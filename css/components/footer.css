@@ -60,7 +60,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 24px;
   text-transform: uppercase;
   text-decoration: none;
   color: #ffffff;
@@ -103,8 +103,88 @@
   color: var(--white);
   padding-bottom: 29px;
 }
-.footer__catalog-list {
-  margin: 0;
-  padding-top: 40px;
+.footer__navigation {
+  display: flex;
+  padding-bottom: 80px;
+}
+
+.footer__navigation-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--white);
+  margin: 40px 0 29px 0;
+  display: block;
+}
+.footer__navigation-list {
   list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.footer__navigation-link {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 32px;
+  color: var(--white);
+}
+.footer__navigation--first {
+  margin-right: 104px;
+}
+
+.footer__navigation--second {
+  margin-right: 94px;
+}
+.footer__navigation--third {
+  margin-right: 25px;
+}
+.pernos {
+  line-height: 0;
+}
+.footer__container-button-link {
+  display: flex;
+  flex-direction: column;
+}
+.footer__button-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--yellow-light-1);
+  border: 1px solid #ffc239;
+}
+.footer__button-link-calculator {
+  padding: 18px 23px 18px 22px;
+  border-radius: 37px;
+  margin: 40px 0 14px 63px;
+  text-align: center;
+  line-height: 19px;
+}
+.footer__button-link-connection {
+  padding: 15px 51px 17px 50px;
+  border-radius: 25px;
+  text-align: center;
+  margin-left: 63px;
+}
+
+.footer__law {
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  margin-left: -72px;
+  padding: 17px 71px 24px 52px;
+  display: grid;
+  grid-template-columns: 2.9fr 1.2fr 1.1fr 0fr;
+}
+.footer__law-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 0.4;
 }

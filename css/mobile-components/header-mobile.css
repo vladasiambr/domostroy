@@ -1,0 +1,21 @@
+.header__mobile {
+  display: flex;
+}
+.logo__mobile {
+  padding: 30px 0 16px 25px;
+}
+
+.logo__mobile-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.hamburger {
+  background: none;
+  border: none;
+  padding: 56px 18px 29px 154px;
+}
