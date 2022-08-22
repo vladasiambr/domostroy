@@ -1,0 +1,23 @@
+.swiper-button-prev-3 {
+  display: block;
+  text-align: 25px;
+  left: 49px;
+  bottom: -43px;
+  position: inherit;
+}
+
+.mobileSwiper {
+  height: 1140px;
+  position: relative;
+}
+
+.button-prev-3 {
+  position: absolute;
+  left: 100px;
+  bottom: 66px;
+}
+.button-next-3 {
+  position: absolute;
+  left: 206px;
+  bottom: 66px;
+}

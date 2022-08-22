@@ -1,0 +1,86 @@
+.suggestions-mobile {
+  background: url("../../images/img-mobile/forast-mobile.jpg") no-repeat,
+    rgba(246, 246, 249, 0.8);
+  background-blend-mode: hue;
+  font-family: "Inter";
+  font-style: normal;
+}
+.suggestions-mobile-container {
+  padding: 0 28px 0 27px;
+}
+.suggestions-mobile__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 14px;
+}
+.suggestions-mobile-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 35px;
+  color: var(--black-2);
+  padding: 72px 0 43px 0;
+}
+.suggestions-mobile__content {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 2px 4px 13px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+.suggestions-mobile-content-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 19px;
+  text-align: center;
+  color: var(--black);
+  padding: 9px 0 11px;
+}
+.suggestions-mobile-content-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  padding-bottom: 37px;
+}
+.suggestions-mobile__content-image {
+  padding: 23px 115px 13px;
+}
+
+.messang-vk {
+  background: rgba(246, 246, 249, 0.9);
+  backdrop-filter: blur(8px);
+  padding-left: 27px;
+}
+.messang-vk-title {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  padding: 112px 28px 30px 0;
+}
+.messang-vk-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 0 38px 122px 0;
+}
+
+.messang-vk-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white);
+  text-decoration: none;
+  background: var(--blue-darken-2);
+  padding: 23px 35px;
+  display: inline-block;
+  border-radius: 40px;
+}
+.messang-vk-container {
+  padding: 0 32px 155px 0;
+}

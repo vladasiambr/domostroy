@@ -5,6 +5,11 @@
 .swiper-wrapper {
   height: 355px;
 }
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
 .wrapper {
   position: relative;
 }
@@ -39,6 +44,7 @@
   .wrapper {
     width: 100%;
     overflow: hidden;
+    
   }
   .swiper-slide {
     width: 285px;

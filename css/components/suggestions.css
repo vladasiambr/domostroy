@@ -48,6 +48,9 @@
   box-shadow: 3px 4px 33px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
 }
+.frame-house{
+  border-radius: 10px 10px 0 0;
+}
 .name-products {
   font-family: "Inter";
   font-style: normal;
@@ -100,7 +103,7 @@
 }
 .watch-all-project-container {
   text-align: center;
-  padding-bottom: 124px;
+  padding:32px 0 124px 0;
 }
 .watch-all-project {
   display: inline-block;

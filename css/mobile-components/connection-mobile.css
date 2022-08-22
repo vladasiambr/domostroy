@@ -1,0 +1,36 @@
+.connection-mobile {
+  font-family: "Inter";
+  font-style: normal;
+  padding: 0 28px 0 27px;
+}
+.connection-description-title {
+  margin-top: 123px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: var(--black);
+}
+.connection-description-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.connection-description-text--second {
+  margin-top: 20px;
+}
+.connection-button-container {
+  margin: 54px 32px 146px 208px;
+}
+.connection-button-link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: var(--black);
+  border: 1px solid var(--yellow-light-1);
+  border-radius: 50%;
+  padding: 49px 22px;
+}

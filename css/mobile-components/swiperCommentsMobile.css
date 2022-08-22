@@ -1,0 +1,15 @@
+.swiper-slide {
+  width: 320px;
+}
+.swiper {
+  position: relative;
+}
+.swiperCommentsMobile {
+  background-color: var(--gray-light-2);
+}
+.button-next6 {
+
+}
+.button-prev6 {
+  z-index: 1;
+}
