@@ -49,19 +49,23 @@
 }
 
 @media screen and (max-width: 375px) {
+  .swiper-wrapper  {
+    position: relative;
+  }
   .swiper-button-prev-1 {
     position: absolute;
-    top: 0px;
+    top: 2563px;
     left: 50px;
   }
   .swiper-button-next-1 {
-    top: 740px;
-    left: 10px;
+    top: 2563px;
+    left: 233px;
     z-index: 1;
   }
   .swiper-pagination {
-    left: 173px;
-    top: 730px;
+    left: 110px;
+    top: 2563px;
+    z-index: 1;
   }
   .wrapper-family {
     height: 798px;
