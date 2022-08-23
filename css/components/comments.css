@@ -10,7 +10,9 @@
   height: 691px;
   position: relative;
 }
-
+.star-container {
+  text-align: center;
+}
 .review {
   font-family: "Inter";
   font-style: normal;
