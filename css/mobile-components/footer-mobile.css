@@ -1,0 +1,144 @@
+.footer-mobile {
+  background: var(--light-black);
+}
+
+.footer-information {
+  font-family: "Inter";
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 70px 0 60px 0;
+}
+.footer-email {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer-phone-container {
+  font-family: "Inter";
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding-bottom: 60px;
+}
+.footer-phone-link {
+  color: var(--white);
+  text-decoration: none;
+}
+.footer-masseng-container {
+  text-align: center;
+}
+
+.footer-masseng-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.footer-masseng-icon {
+  text-align: center;
+}
+.footer-masseng-icon-container {
+  width: 232px;
+  padding-left: 72px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-masseng-title {
+  margin-bottom: 19px;
+}
+.masseng-icon {
+  width: 35px;
+  height: 35px;
+}
+.footer-button-container {
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  padding-bottom: 63px;
+}
+.footer-button-link--first {
+  padding: 15px 22px 17px;
+}
+.footer-button-link--second {
+  padding: 15px 76px 17px;
+}
+.footer-button-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 57px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--yellow-light-1);
+  text-decoration: none;
+  border: 1px solid #ffc239;
+  border-radius: 25px;
+}
+.footer-mobile-list {
+  list-style-type: none;
+}
+.footer-mobile-catalog-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--white);
+  margin-top: 60px;
+}
+.footer-mobile-catalog-title--first {
+  margin-top: 53px;
+}
+.footer-mobile-list {
+  text-align: center;
+  padding: 0;
+}
+.footer-mobile-link {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 35px;
+  color: var(--white);
+}
+.footer-mobile-link--last {
+  padding-bottom: 102px;
+}
+.footer-mobile-catalog {
+  padding-bottom: 102px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.footer-law-mobile {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+  color: var(--white);
+  padding-top: 29px;
+}
+.footer-law-mobile-text {
+  opacity: 0.6;
+}
+.footer-law-mobile-text--last {
+  opacity: 0.4;
+  line-height: 15px;
+}
+.copyright {
+  padding: 34px 0 36px;
+}

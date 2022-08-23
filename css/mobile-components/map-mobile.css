@@ -1,34 +1,86 @@
 .map-information-container {
   background: rgba(255, 255, 255, 0.7);
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 20px 20px 0px 0px;
+  backdrop-filter: blur(13px);
   font-family: "Inter";
   font-style: normal;
-
 }
-.map-mobile {
-}
-
-.map-information-container {
+.map-information-container-content {
+  padding-left: 32px;
 }
 .map-information-title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: var(--black);
+  padding: 73px 0 39px 0;
 }
 .map-information-address {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: var(--black);
+  margin-bottom: 15px;
 }
 .map-information-address-container {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: rgba(0, 0, 0, 0.8);
 }
 .map-information-address-address {
+  margin-bottom: 16px;
 }
-.map-information-schedule {
+
+.map-information-contacts {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: var(--black);
+  margin: 46px 0 13px;
 }
 .map-information-contacts-container {
-}
-.map-information-contacts {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--black);
+  display: flex;
+  flex-direction: column;
 }
 .map-information-phone-link {
+  text-decoration: none;
+  color: var(--black);
 }
-.map-masseng {
+.map-email {
+  text-decoration: none;
+  color: var(--black);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 50px 0 21px;
+  display: block;
 }
+
 .map-button {
+  text-align: center;
+  margin: 90px 0 97px 0;
 }
 .map-button-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: var(--blue-darken-1);
+  text-decoration: none;
+  background: var(--yellow-light-1);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 20px 79px 21px 79px;
+  display: inline-block;
 }

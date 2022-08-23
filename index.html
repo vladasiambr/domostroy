@@ -528,6 +528,9 @@
       </div>
     </footer>
   </div>
+
+
+
   <div class="container__mobile">
     <header class="header__mobile">
       <div class="logo__mobile">
@@ -537,6 +540,49 @@
       <button class="hamburger">
         <img src="./images/img-mobile/hamburger.svg" alt="hamburger">
       </button>
+      <div class="header__mobile-menu">
+        <div class="header__mobile-container-logo">
+          <img class="logo-menu" src="./images/img-mobile/logo-mobile.png" alt="logo">
+          <button class="header__mobile-menu-exit">
+            <img src="./images/img-mobile/exit.svg" alt="exit">
+          </button>
+        </div>
+        <div class="header__mobile-menu-container">
+          <nav class="header__mobile-navigation">
+            <ul class="header__mobile-list">
+              <li class="header__mobile-item"><a href="#" class="header__mobile-link">Главная</a></li>
+              <li class="header__mobile-item"><a href="#" class="header__mobile-link">Комплектация</a></li>
+              <li class="header__mobile-item"><a href="#" class="header__mobile-link">Каталог</a></li>
+              <li class="header__mobile-item"><a href="#" class="header__mobile-link">Заказчику</a></li>
+              <li class="header__mobile-item"><a href="#" class="header__mobile-link">Доставка</a></li>
+              <li class="header__mobile-item"><a href="#" class="header__mobile-link">Наши работы</a></li>
+              <li class="header__mobile-item"><a href="#" class="header__mobile-link">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="border-menu-mobile"></div>
+          <div class="header__menu-mobile-contacts">
+            <p class="header__mobile-text-email">Пишите нам:<a href="#" class="header__mobile-menu-email">domstroy-st@bk.ru</a></p>
+            <p class="header__menu-mobile-address">Моск.обл. г.Ступино ул.Промышленная (200м от завода "Изомин")</p>
+            <p class="header__menu-mobile-schedule">Пн-Сб 9:00-18:00, Вс - выходной</p>
+          </div>
+          <div class="header__menu-mobile-phone">
+            <a class="header__menu-mobile-link" href="tel:+74951420725">+7 (495) 142-07-25</a>
+            <a class="header__menu-mobile-link" href="tel:+79779080250">+7 (977) 908-02-50</a>
+          </div>
+          <div class="header__mobile-masseng">
+            <a href="#"><img src="./images/icons/youtube.svg" alt="youtube"></a>
+            <a href="#"><img src="./images/icons/instagram.svg" alt="instagram"></a>
+            <a href="#"><img src="./images/icons/vk.svg" alt="vk"></a>
+            <a href="#"><img src="./images/icons/whatsapp.svg" alt="whatsapp"></a>
+            <a href="#"><img src="./images/icons/telegram.svg" alt="telegram"></a>
+          </div>
+          <div class="header__mobile-menu-button">
+            <a class="header__mobile-menu-link" href="#">ЗАКАЗАТЬ ЗВОНОК</a>
+          </div>
+        </div>
+      </div>
+
+
     </header>
     <section class="description__mobile">
       <div class="description__mobile-title-container">
@@ -774,7 +820,7 @@
       <div class="comments__container">
         <div class="swiper swiperCommentsMobile">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <div class="swiper-slide swiper-slide--comments">
               <div class="comments__comment-container">
                 <p class="review">
                   &#8226; Отзывы &#8226;
@@ -807,33 +853,146 @@
     </section>
     <section class="map-mobile">
       <div class="map__yandex">
-        <iframe class="yandex-map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A989a7ef7a61ca14947f7abc44478e1cf6d5ede4725a6c07eea666757d38ad2de&amp;source=constructor" width="100%" height="1551" frameborder="0"></iframe>
+        <iframe class="yandex-map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A989a7ef7a61ca14947f7abc44478e1cf6d5ede4725a6c07eea666757d38ad2de&amp;source=constructor" width="100%" height="505px" frameborder="0"></iframe>
       </div>
       <div class="map-information-container">
-        <h2 class="map-information-title">Контакты</h2>
-        <p class="map-information-address">Адрес:</p>
-        <div class="map-information-address-container">
-          <p class="map-information-address-address">Моск.обл. г.Ступино ул.Промышленная (200м от завода "Изомин")</p>
-          <p class="map-information-schedule">Пн-Сб 9:00-18:00, Вс - выходной</p>
-        </div>
-        <div class="map-information-contacts-container">
+        <div class="map-information-container-content">
+          <h2 class="map-information-title">Контакты</h2>
+          <p class="map-information-address">Адрес:</p>
+          <div class="map-information-address-container">
+            <p class="map-information-address-address">Моск.обл. г.Ступино ул.Промышленная (200м от завода "Изомин")</p>
+            <p class="map-information-schedule">Пн-Сб 9:00-18:00, Вс - выходной</p>
+          </div>
           <p class="map-information-contacts">Контакты:</p>
-          <a class="map-information-phone-link" href="tel:+74951420725">+7 (495) 142-07-25</a>
-          <a class="map-information-phone-link" href="tel:+79779080250">+7 (977) 908-02-50</a>
-        </div>
-        <a href="#">domstroy-st@bk.ru</a>
-        <div class="map-masseng">
-          <a href="#"><img src="./images/icons/youtube.svg" alt="youtube"></a>
-          <a href="#"><img src="./images/icons/instagram.svg" alt="instagram"></a>
-          <a href="#"><img src="./images/icons/vk.svg" alt="vk"></a>
-          <a href="#"><img src="./images/icons/whatsapp.svg" alt="whatsapp"></a>
-          <a href="#"><img src="./images/icons/telegram.svg" alt="telegram"></a>
+          <div class="map-information-contacts-container">
+            <a class="map-information-phone-link" href="tel:+74951420725">+7 (495) 142-07-25</a>
+            <a class="map-information-phone-link" href="tel:+79779080250">+7 (977) 908-02-50</a>
+          </div>
+          <a href="#" class="map-email">domstroy-st@bk.ru</a>
+          <div class="map-masseng">
+            <a href="#"><img src="./images/icons/youtube.svg" alt="youtube"></a>
+            <a href="#"><img src="./images/icons/instagram.svg" alt="instagram"></a>
+            <a href="#"><img src="./images/icons/vk.svg" alt="vk"></a>
+            <a href="#"><img src="./images/icons/whatsapp.svg" alt="whatsapp"></a>
+            <a href="#"><img src="./images/icons/telegram.svg" alt="telegram"></a>
+          </div>
         </div>
         <div class="map-button">
           <a class="map-button-link" href="#">Задать вопрос</a>
         </div>
       </div>
+
     </section>
+    <footer class="footer-mobile">
+      <div class="footer-information">
+        <p class="footer-email-text">Пишите нам:<a class="footer-email" href="#">domstroy-st@bk.ru</a></p>
+        <p class="footer-address">Моск.обл. г.Ступино ул.Промышленная</p>
+        <p class="footer-schedule">Пн-Сб 9:00-18:00, Вс - выходной</p>
+      </div>
+      <div class="footer-phone-container">
+        <a class="footer-phone-link" href="tel:+74951420725">+7 (495) 142-07-25</a>
+        <a class="footer-phone-link" href="tel:+79779080250">+7 (977) 908-02-50</a>
+      </div>
+      <div class="footer-masseng-container">
+        <p class="footer-masseng-title">Мы в социальных сетях:</p>
+        <div class="footer-masseng-icon-container">
+          <a class="masseng-icon" href="#"><img src="./images/icons/youtube.svg" alt="youtube"></a>
+          <a class="masseng-icon" href="#"><img src="./images/icons/instagram.svg" alt="instagram"></a>
+          <a class="masseng-icon" href="#"><img src="./images/icons/vk.svg" alt="vk"></a>
+          <a class="masseng-icon" href="#"><img src="./images/icons/whatsapp.svg" alt="whatsapp"></a>
+          <a class="masseng-icon" href="#"><img src="./images/icons/telegram.svg" alt="telegram"></a>
+        </div>
+      </div>
+      <div class="footer-button-container">
+        <a class="footer-button-link footer-button-link--first" href="#">ЧЕСТНЫЙ КАЛЬКУЛЯТОР БЕСЕДОК</a>
+        <a class="footer-button-link footer-button-link--second" href="#">СВЯЗАТЬСЯ С НАМИ</a>
+      </div>
+      <div class="footer-mobile-catalog">
+        <nav class="footer-mobile-navigation">
+          <h3 class="footer-mobile-catalog-title footer-mobile-catalog-title--first">ПРОДУКЦИЯ</h3>
+          <ul class="footer-mobile-list">
+            <li>
+              <a class="footer-mobile-link" href="#">Каркасные дома</a>
+            </li>
+            <li>
+              <a class="footer-mobile-link" href="#">Модульные дома</a>
+            </li>
+            <li>
+              <a class="footer-mobile-link" href="#">Бани “Под ключ“</a>
+            </li>
+            <li>
+              <a class="footer-mobile-link" href="#">Беседки</a>
+            </li>
+            <li>
+              <a class="footer-mobile-link" href="#">Бытовки (утепленные)</a>
+            </li>
+            <li>
+              <a class="footer-mobile-link" href="#">Хоз. постройки (без утепления)</a>
+            </li>
+          </ul>
+          <h3 class="footer-mobile-catalog-title">КОМПЛЕКТАЦИЯ</h3>
+          <ul class="footer-mobile-list">
+            <li>
+              <a class="footer-mobile-link" href="#">Комплектация домоы</a>
+            </li>
+            <li>
+              <a class="footer-mobile-link" href="#">Комплектация бань</a>
+            </li>
+            <li>
+              <a class="footer-mobile-link" href="#">Комплектация беседок</a>
+            </li>
+            <li>
+              <a class="footer-mobile-link" href="#">Комплектация бытовок</a>
+            </li>
+            <li>
+              <a class="footer-mobile-link" href="#">Комплектация хоз. построек</a>
+            </li>
+          </ul>
+          <h3 class="footer-mobile-catalog-title">ЗАКАЗЧИКУ</h3>
+          <ul class="footer-mobile-list">
+            <li>
+              <a class="footer-mobile-link" href="#">Индивидуальное строительство</a>
+            </li>
+            <li>
+              <a class="footer-mobile-link" href="#">Фиксированные цены</a>
+            </li>
+            <li>
+              <a class="footer-mobile-link" href="#">Дистанционное оформление договора</a>
+            </li>
+            <li>
+              <a class="footer-mobile-link" href="#">Материнский капитал</a>
+            </li>
+            <li>
+              <a class="footer-mobile-link" href="#">Порядок оплаты</a>
+            </li>
+            <li>
+              <a class="footer-mobile-link" href="#">Процесс заказа</a>
+            </li>
+          </ul>
+          <h3 class="footer-mobile-catalog-title">ПОЛЕЗНО</h3>
+          <ul class="footer-mobile-list">
+            <li>
+              <a class="footer-mobile-link" href="#">Доставка и сборка</a>
+            </li>
+            <li>
+              <a class="footer-mobile-link" href="#">Контакты</a>
+            </li>
+            <li>
+              <a class="footer-mobile-link footer-mobile-link--last" href="#">Наши работы</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-law-mobile">
+        <p class="footer-law-mobile-text">Политика конфиденциальности</p>
+        <p class="footer-law-mobile-text">Пользовательское соглашение</p>
+        <p class="footer-law-mobile-text">Cookies</p>
+        <div class="copyright">
+          <p class="footer-law-mobile-text footer-law-mobile-text--last ">Copyright © “ДОМСТРОЙ” 2022. <br>
+            Все права защищены.</p>
+        </div>
+      </div>
+    </footer>
   </div>
 
   <!-- JavaScript -->
@@ -843,6 +1002,7 @@
   <script src="./js/components/comments-swiper.js"></script>
   <script src="./js/components/mobileSwiper.js"></script>
   <script src="./js/components/swiperCommentsMobile.js"></script>
+  <script src="./js/components/mobileMenu.js"></script>
 </body>
 
 </html>
