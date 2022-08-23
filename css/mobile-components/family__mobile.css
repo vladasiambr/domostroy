@@ -2,6 +2,7 @@
   background: url("../../images/img-mobile/family-mobile.jpg") no-repeat;
   font-family: "Inter";
   font-style: normal;
+  position: relative;
 }
 .family__container-information {
   background-color: rgba(241, 241, 246, 0.5);

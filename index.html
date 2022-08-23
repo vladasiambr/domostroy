@@ -1,1008 +1,1612 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/favicon/site.webmanifest" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>ДомСтрой</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
-  <link rel="manifest" href="./images/favicon/site.webmanifest">
-  <link rel="manifest" href="manifest.json">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <title>ДомСтрой</title>
-</head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__information">
+          <div class="header__logo">
+            <h4 class="header__logo-text">строительная компания</h4>
+            <img
+              src="./images/logo.png"
+              class="header__logo-image"
+              alt="logo"
+            />
+          </div>
+          <div class="header__company">
+            <p class="header__company-email company">
+              Пишите нам:
+              <a class="email" href="#">domstroy-st@bk.ru</a>
+            </p>
+            <p class="header__company-address company">
+              Моск.обл. г.Ступино ул.Промышленная
+            </p>
+            <p class="header__company-schedule company">
+              Пн-Сб 9:00-18:00, Вс - выходной
+            </p>
+          </div>
+          <div class="header__phone-number">
+            <a class="header__phone-number-link" href="tel:+74951420725"
+              >+7 (495) 142-07-25</a
+            >
+            <a class="header__phone-number-link" href="tel:+79779080250"
+              >+7 (977) 908-02-50</a
+            >
+          </div>
+          <div class="header__connection">
+            <button class="header__connection-call">Заказать звонок</button>
+            <div class="header__message">
+              <a class="header__message-link" href="#">
+                <img src="./images/icons/youtube.svg " alt="youtube" />
+              </a>
+              <a class="header__message-link" href="#">
+                <img src="./images/icons/instagram.svg" alt="instagram" />
+              </a>
+              <a class="header__message-link" href="#">
+                <img src="./images/icons/vk.svg" alt="vk" />
+              </a>
+              <a class="header__message-link" href="#">
+                <img src="./images/icons/whatsapp.svg" alt="whatsapp" />
+              </a>
+              <a class="header__message-link" href="#">
+                <img src="./images/icons/telegram.svg" alt="telegram" />
+              </a>
+            </div>
+          </div>
+        </div>
 
-<body>
-  <div class="container">
-    <header class="header">
-      <div class="header__information">
-        <div class="header__logo">
-          <h4 class="header__logo-text">строительная компания</h4>
-          <img src="./images/logo.png" class="header__logo-image" alt="logo">
-        </div>
-        <div class="header__company ">
-          <p class="header__company-email company">Пишите нам:
-            <a class="email" href="#">domstroy-st@bk.ru</a>
-          </p>
-          <p class="header__company-address company">Моск.обл. г.Ступино ул.Промышленная</p>
-          <p class="header__company-schedule company">Пн-Сб 9:00-18:00, Вс - выходной</p>
-        </div>
-        <div class="header__phone-number ">
-          <a class="header__phone-number-link" href="tel:+74951420725">+7 (495) 142-07-25</a>
-          <a class="header__phone-number-link" href="tel:+79779080250">+7 (977) 908-02-50</a>
-        </div>
-        <div class="header__connection">
-          <button class="header__connection-call">
-            Заказать звонок
-          </button>
-          <div class="header__message">
-            <a class="header__message-link" href="#">
-              <img src="./images/icons/youtube.svg " alt="youtube">
-            </a>
-            <a class="header__message-link" href="#">
-              <img src="./images/icons/instagram.svg" alt="instagram">
-            </a>
-            <a class="header__message-link" href="#">
-              <img src="./images/icons/vk.svg" alt="vk">
-            </a>
-            <a class="header__message-link" href="#">
-              <img src="./images/icons/whatsapp.svg" alt="whatsapp">
-            </a>
-            <a class="header__message-link" href="#">
-              <img src="./images/icons/telegram.svg" alt="telegram">
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-list-item">
+              <a class="header__menu-link" href="#">Главное</a>
+            </li>
+            <li class="header__menu-list-item">
+              <a class="header__menu-link" href="#">Комплектация</a>
+            </li>
+            <li class="header__menu-list-item">
+              <a class="header__menu-link" href="#">Заказчику</a>
+            </li>
+            <li class="header__menu-list-item">
+              <a class="header__menu-link" href="#">Доставка и сборка</a>
+            </li>
+            <li class="header__menu-list-item">
+              <a class="header__menu-link" href="#">Наши работы</a>
+            </li>
+            <li class="header__menu-list-item">
+              <a class="header__menu-link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="catalog">
+        <nav class="catalog__navigation">
+          <ul class="catalog__list">
+            <li class="catalog__list-item">
+              <a class="catalog__link" href="#">Каталог домов</a>
+            </li>
+            <li class="catalog__list-item">
+              <a class="catalog__link" href="#">Каталог бытовок</a>
+            </li>
+            <li class="catalog__list-item">
+              <a class="catalog__link" href="#">Каталог беседок</a>
+            </li>
+            <li class="catalog__list-item">
+              <a class="catalog__link" href="#">Каталог бань</a>
+            </li>
+            <li class="catalog__list-item">
+              <a class="catalog__link" href="#">Каталог хоз. построек</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="catalog__description">
+          <div class="catalog__description-description">
+            <h2 class="catalog__description-logo">
+              СТРОИТЕЛЬСТВО ДАЧНЫХ ДОМОВ<br />
+              И КОТТЕДЖЕЙ
+            </h2>
+            <p class="catalog__description-text">
+              На участок поставляются готовые модули,<br />
+              производится их монтаж в короткие сроки. <br />
+              Мы гарантируем выполнение всех взятых на себя<br />
+              обязательств и доступные цены.
+            </p>
+          </div>
+          <div class="catalog__pric-content">
+            <a class="catalog__pric" href="#"
+              ><img src="./images/svg/strelka-svg.svg" alt="button-calculate" />
+              <span class="catalog__pric-text">РАССЧИТАТЬ СТОИМОСТЬ</span>
             </a>
           </div>
         </div>
-      </div>
+      </section>
 
-      <nav class="header__menu">
-        <ul class="header__menu-list">
-          <li class="header__menu-list-item">
-            <a class="header__menu-link" href="#">Главное</a>
-          </li>
-          <li class="header__menu-list-item">
-            <a class="header__menu-link" href="#">Комплектация</a>
-          </li>
-          <li class="header__menu-list-item">
-            <a class="header__menu-link" href="#">Заказчику</a>
-          </li>
-          <li class="header__menu-list-item">
-            <a class="header__menu-link" href="#">Доставка и сборка</a>
-          </li>
-          <li class="header__menu-list-item">
-            <a class="header__menu-link" href="#">Наши работы</a>
-          </li>
-          <li class="header__menu-list-item">
-            <a class="header__menu-link" href="#">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <section class="catalog">
-      <nav class="catalog__navigation">
-        <ul class="catalog__list">
-          <li class="catalog__list-item">
-            <a class="catalog__link" href="#">Каталог домов</a>
-          </li>
-          <li class="catalog__list-item">
-            <a class="catalog__link" href="#">Каталог бытовок</a>
-          </li>
-          <li class="catalog__list-item">
-            <a class="catalog__link" href="#">Каталог беседок</a>
-          </li>
-          <li class="catalog__list-item">
-            <a class="catalog__link" href="#">Каталог бань</a>
-          </li>
-          <li class="catalog__list-item">
-            <a class="catalog__link" href="#">Каталог хоз. построек</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="catalog__description">
-        <div class="catalog__description-description">
-          <h2 class="catalog__description-logo">СТРОИТЕЛЬСТВО ДАЧНЫХ ДОМОВ<br>
-            И КОТТЕДЖЕЙ</h2>
-          <p class="catalog__description-text">На участок поставляются готовые модули,<br>
-            производится их монтаж в короткие сроки. <br>
-            Мы гарантируем выполнение всех взятых на себя<br>
-            обязательств и доступные цены.</p>
+      <section class="suggestions">
+        <div class="suggestions-container">
+          <div class="suggestions-content">
+            <h3 class="suggestions-title">Предложения для вас</h3>
+            <div class="suggestions__building">
+              <a class="suggestions__building-link" href="#">Каркасные дома</a>
+              <a class="suggestions__building-link" href="#">Бани</a>
+              <a class="suggestions__building-link" href="#">Беседки</a>
+              <a class="suggestions__building-link" href="#">Бытовки</a>
+              <a class="suggestions__building-link" href="#"> Хоз. постройки</a>
+            </div>
+          </div>
+
+          <div class="wrapper">
+            <div class="swiper products__swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide--1">
+                  <div class="products">
+                    <img
+                      class="frame-house"
+                      src="./images/swiper/Frame-house.jpg"
+                      alt="Frame-house"
+                    />
+                    <div class="suggestions__discription">
+                      <h4 class="name-products">
+                        Каркасный дом с<br />
+                        балконом LK-2
+                      </h4>
+                      <div class="discription-products">
+                        <p class="size">
+                          Размер: <span class="numbers-size">4х6 м</span>
+                        </p>
+                        <p class="square">
+                          Площадь:<span class="numbers-square">34.8 м2</span>
+                        </p>
+                        <p class="rooms">
+                          Количество комнат:
+                          <span class="numbers-rooms">3 шт</span>
+                        </p>
+                        <p class="price">940 000 ₽</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="products">
+                    <img
+                      class="frame-house"
+                      src="./images/swiper/Frame-house2.jpg"
+                      alt="Frame-house"
+                    />
+                    <div class="suggestions__discription">
+                      <h4 class="name-products">
+                        Каркасный дом с<br />
+                        балконом LK-2
+                      </h4>
+                      <div class="discription-products">
+                        <p class="size">
+                          Размер: <span class="numbers-size">4х6 м</span>
+                        </p>
+                        <p class="square">
+                          Площадь:<span class="numbers-square">34.8 м2</span>
+                        </p>
+                        <p class="rooms">
+                          Количество комнат:
+                          <span class="numbers-rooms">3 шт</span>
+                        </p>
+                        <p class="price">940 000 ₽</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="products">
+                    <img
+                      class="frame-house"
+                      src="./images/swiper/Frame-house3.jpg"
+                      alt="Frame-house"
+                    />
+                    <div class="suggestions__discription">
+                      <h4 class="name-products">
+                        Каркасный дом с<br />
+                        балконом LK-2
+                      </h4>
+                      <div class="discription-products">
+                        <p class="size">
+                          Размер: <span class="numbers-size">4х6 м</span>
+                        </p>
+                        <p class="square">
+                          Площадь:<span class="numbers-square">34.8 м2</span>
+                        </p>
+                        <p class="rooms">
+                          Количество комнат:
+                          <span class="numbers-rooms">3 шт</span>
+                        </p>
+                        <p class="price">940 000 ₽</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="products">
+                    <img
+                      class="frame-house"
+                      src="./images/swiper/Frame-house4.jpg"
+                      alt="Frame-house"
+                    />
+                    <div class="suggestions__discription">
+                      <h4 class="name-products">
+                        Каркасный дом с<br />
+                        балконом LK-2
+                      </h4>
+                      <div class="discription-products">
+                        <p class="size">
+                          Размер: <span class="numbers-size">4х6 м</span>
+                        </p>
+                        <p class="square">
+                          Площадь:<span class="numbers-square">34.8 м2</span>
+                        </p>
+                        <p class="rooms">
+                          Количество комнат:
+                          <span class="numbers-rooms">3 шт</span>
+                        </p>
+                        <p class="price">940 000 ₽</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-prev">
+              <img
+                class="button-swiper"
+                src="./images/svg/VectorPrev.svg"
+                alt="prev"
+              />
+            </div>
+            <div class="swiper-button-next">
+              <img
+                class="button-swiper"
+                src="./images/svg/VectorNext.svg"
+                alt="next"
+              />
+            </div>
+          </div>
+          <div class="watch-all-project-container">
+            <a class="watch-all-project" href="#"> СМОТРЕТЬ ВСЕ ПРОЕКТЫ </a>
+          </div>
         </div>
-        <div class="catalog__pric-content">
-          <a class="catalog__pric" href="#"><img src="./images/svg/strelka-svg.svg" alt="button-calculate">
-            <span class="catalog__pric-text">РАССЧИТАТЬ СТОИМОСТЬ</span>
+      </section>
+      <section class="assistance-families">
+        <div class="assistance-families__content">
+          <div class="assistance-families__image">
+            <img src="./images/family.jpg" alt="family" />
+          </div>
+          <div class="wrapper-family">
+            <div class="swiper swiper__family">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide--famaly">
+                  <div class="assistance-families__slide">
+                    <h3 class="assistance-families__title">
+                      Мы работаем с<br />
+                      <span>материнским капиталом!</span>
+                    </h3>
+                    <div class="request">
+                      <a href="#" class="request-link"
+                        >Оставить<br />
+                        заявку</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next-1">
+                <img
+                  class="button-swiper-1"
+                  src="./images/svg/Arrow.svg"
+                  alt="next"
+                />
+              </div>
+              <div class="swiper-button-prev-1">
+                <img
+                  class="button-swiper-1"
+                  src="./images/svg/Arrow10.svg"
+                  alt="prev"
+                />
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advantage">
+        <div class="advantage__content">
+          <h3 class="advantage__content-title">Наши преимущества</h3>
+          <div class="advantage__content-advantages">
+            <div class="advantage__content-subparahgraph subparahgraph">
+              <h4 class="advantage__content-subparahgraph-title">
+                Работаем строго по договору
+              </h4>
+              <p class="advantage__content-subparahgraph-text">
+                Стоимость строительсва фиксированная. <br />
+                И все наши обязательства прописаны в договоре.
+              </p>
+              <img
+                class="advantage__content-subparahgraph-img"
+                src="./images/advantage/certificate.png"
+                alt="certificate"
+              />
+            </div>
+            <div class="advantage__content-subparagraph subparahgraph">
+              <h4 class="advantage__content-subparahgraph-title">
+                Выставка и собственное производство
+              </h4>
+              <p class="advantage__content-subparahgraph-text">
+                Лучшее соотношение цены и качества. К нам <br />
+                возвращаются наши клиенты и рекомендуют своим <br />
+                знакомым.
+              </p>
+              <img
+                class="advantage__content-subparahgraph-img"
+                src="./images/advantage/badge.png"
+                alt="badge"
+              />
+            </div>
+            <div class="advantage__content-subparagraph subparahgraph">
+              <h4 class="advantage__content-subparahgraph-title">
+                Честная цена и понятные условия
+              </h4>
+              <p class="advantage__content-subparahgraph-text">
+                Поэтапная оплата. Нет скрытых платежей и мелких <br />
+                шрифтов.
+              </p>
+              <img
+                class="advantage__content-subparahgraph-img"
+                src="./images/advantage/money-sack.png"
+                alt="money-sack"
+              />
+            </div>
+            <div class="advantage__content-subparagraph subparahgraph">
+              <h4 class="advantage__content-subparahgraph-title">
+                Экологически чистый материал
+              </h4>
+              <p class="advantage__content-subparahgraph-text">
+                Сертифицированные, экологичные материалы от <br />
+                проверенных поставщиков.
+              </p>
+              <img
+                class="advantage__content-subparahgraph-img"
+                src="./images/advantage//goal.png"
+                alt="goal"
+              />
+            </div>
+            <div class="advantage__content-subparagraph subparahgraph">
+              <h4 class="advantage__content-subparahgraph-title">
+                Фотоотчет процесса строительства
+              </h4>
+              <p class="advantage__content-subparahgraph-text">
+                Бесплатный фото или видео отчет <br />
+                (по договорённости)
+              </p>
+              <img
+                class="advantage__content-subparahgraph-img"
+                src="./images/advantage/running-man.png"
+                alt="running-man"
+              />
+            </div>
+            <div class="advantage__content-subparagraph subparahgraph">
+              <h4 class="advantage__content-subparahgraph-title">
+                Гарантийное обслуживание <br />
+                любой постройки
+              </h4>
+              <p class="advantage__content-subparahgraph-text">
+                Даем гарантию не на словах.
+              </p>
+              <img
+                class="advantage__content-subparahgraph-img"
+                src="./images/advantage/receipt.png"
+                alt="receipt"
+              />
+            </div>
+            <div class="advantage__content-subparagraph subparahgraph">
+              <h4 class="advantage__content-subparahgraph-title">
+                Более 7 лет опыта
+              </h4>
+              <p class="advantage__content-subparahgraph-text">
+                Современное и качественное строительство, <br />
+                опытными бригадами.
+              </p>
+              <img
+                class="advantage__content-subparahgraph-img"
+                src="./images/advantage/certificate.png"
+                alt="certificate"
+              />
+            </div>
+            <div class="advantage__content-subparagraph subparahgraph">
+              <h4 class="advantage__content-subparahgraph-title">
+                Индивидуальные проекты
+              </h4>
+              <p class="advantage__content-subparahgraph-text">
+                Возможны изменения проектов из каталога и <br />
+                строительство по индивидуальным планам.
+              </p>
+              <img
+                class="advantage__content-subparahgraph-img"
+                src="./images/advantage/quality.png"
+                alt="quality"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="dvantage__content-vk">
+          <div class="dvantage__content-vk-block-content">
+            <h4 class="dvantage__content-vk-title">
+              <b>Хотите узнавать</b> о строящихся объектах, акциях и
+              спецпредложениях?
+            </h4>
+            <p class="dvantage__content-vk-text">
+              Подпишитесь на нашу группу ВКонтакте и узнавайте свежие<br />
+              новости и полезную информацию раньше всех!
+            </p>
+          </div>
+          <div class="dvantage__content-vk-block-link">
+            <a class="dvantage__content-vk-link" href="#"
+              >Подписаться НА ГРУППУ ВКОНТАКТЕ</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="order">
+        <img class="order__image" src="./images/cottage.jpg" alt="cottage" />
+        <div class="order__content">
+          <div class="order__content-content">
+            <h4 class="order__content-title">
+              Планируете построить
+              <b>индивидуальное строение? Свяжитесь с нами.</b>
+            </h4>
+            <p class="order__content-text">
+              Хотите постройку в современном минималистичном стиле, но ни один
+              из типовых проектов Вам не подходит?
+              <br />
+              Выход есть!
+            </p>
+            <p class="order__content-text second">
+              Свяжитесь с нами и мы реализуем задуманное.
+            </p>
+          </div>
+          <div class="order__request">
+            <a href="#" class="order__request-link">Связаться с нами</a>
+          </div>
+        </div>
+      </section>
+      <section class="comments">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="comments__container">
+                <div class="comments__comment-container">
+                  <p class="review">&#8226; Отзывы &#8226;</p>
+                  <h4 class="comments__container-userName">Джон Джон Джон</h4>
+                  <div class="comments__container-text">
+                    <p class="comments__container-text-1">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nis. Ut enim ad minim veniam, quis nostrud
+                      exercitation ullamco laboris nis.
+                    </p>
+                    <br />
+                    <p class="comments__container-text-2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nis.
+                    </p>
+                  </div>
+                  <div class="comments__border"></div>
+                  <div class="comments__order">
+                    <p class="comments__order-text">
+                      Изготовление каркасного <br />
+                      дома с балконом
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="comments__container">
+                <div class="comments__comment-container">
+                  <p class="review">&#8226; Отзывы &#8226;</p>
+                  <h4 class="comments__container-userName">Джон Джон Джон</h4>
+                  <div class="comments__container-text">
+                    <p class="comments__container-text-1">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nis. Ut enim ad minim veniam, quis nostrud
+                      exercitation ullamco laboris nis.
+                    </p>
+                    <br />
+                    <p class="comments__container-text-2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nis.
+                    </p>
+                  </div>
+                  <div class="comments__border"></div>
+                  <div class="comments__order">
+                    <p class="comments__order-text">
+                      Изготовление каркасного <br />
+                      дома с балконом
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="comments__container">
+                <div class="comments__comment-container">
+                  <p class="review">&#8226; Отзывы &#8226;</p>
+                  <h4 class="comments__container-userName">Джон Джон Джон</h4>
+                  <div class="comments__container-text">
+                    <p class="comments__container-text-1">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nis. Ut enim ad minim veniam, quis nostrud
+                      exercitation ullamco laboris nis.
+                    </p>
+                    <br />
+                    <p class="comments__container-text-2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nis.
+                    </p>
+                  </div>
+                  <div class="comments__border"></div>
+                  <div class="comments__order">
+                    <p class="comments__order-text">
+                      Изготовление каркасного <br />
+                      дома с балконом
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev-2">
+            <img
+              class="button-swiper-2"
+              src="./images/svg/VectorPrev.svg"
+              alt="prev"
+            />
+          </div>
+          <div class="swiper-button-next-2">
+            <img
+              class="button-swiper-2"
+              src="./images/svg/VectorNext.svg"
+              alt="next"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="map">
+        <div class="map__yandex">
+          <iframe
+            class="map__yandex-map"
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3A989a7ef7a61ca14947f7abc44478e1cf6d5ede4725a6c07eea666757d38ad2de&amp;source=constructor"
+            width="100%"
+            height="768"
+            frameborder="0"
+          ></iframe>
+        </div>
+        <div class="map__tadle-info">
+          <div class="map__tadle-info-text">
+            <h3 class="map__tadle-title">Контакты</h3>
+            <p class="map__tadle-address">Адрес:</p>
+            <p class="map__tadle-address-text map__tadle-address-text-top">
+              Моск.обл. г.Ступино ул.Промышленная <br />(200м от завода
+              "Изомин")
+            </p>
+            <p class="map__tadle-address-text">
+              Пн-Сб 9:00-18:00, Вс - выходной
+            </p>
+            <p class="map__tadle-address-text-contact">Контакты:</p>
+            <div class="map__table-phone">
+              <a
+                href="tel:+74951420725"
+                class="map__table-phone-link map__table-phone-link-top"
+                >+7 (495) 142-07-25</a
+              >
+              <a href="tel:+79779080250" class="map__table-phone-link"
+                >+7 (977) 908-02-50</a
+              >
+            </div>
+            <div class="map__message">
+              <div class="map__message-email-container">
+                <a class="map__message-email" href="domstroy-st@bk.ru"
+                  >domstroy-st@bk.ru</a
+                >
+              </div>
+              <div class="map__message-container">
+                <a class="map__message-link" href="#">
+                  <img src="./images/icons/youtube.svg" alt="youtube" />
+                </a>
+                <a class="map__message-link" href="#">
+                  <img src="./images/icons/instagram.svg" alt="instagram" />
+                </a>
+                <a class="map__message-link" href="#">
+                  <img src="./images/icons/vk.svg" alt="vk" />
+                </a>
+                <a class="map__message-link" href="#">
+                  <img src="./images/icons/whatsapp.svg" alt="whatsapp" />
+                </a>
+                <a class="map__message-link" href="#">
+                  <img src="./images/icons/telegram.svg" alt="telegram" />
+                </a>
+              </div>
+            </div>
+            <div class="map__quesetion">
+              <a href="#" class="question">Задать вопрос</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__information">
+          <div class="footer__logo">
+            <h4 class="footer__logo-text">строительная компания</h4>
+            <img
+              src="./images/logo.png"
+              class="footer__logo-image"
+              alt="logo"
+            />
+          </div>
+          <div class="footer__company">
+            <p class="footer__company-email company-footer">
+              Пишите нам:
+              <a class="footer__email" href="#">domstroy-st@bk.ru</a>
+            </p>
+            <p class="footer__company-address company-footer">
+              Моск.обл. г.Ступино ул.Промышленная
+            </p>
+            <p class="footer__company-schedule company-footer">
+              Пн-Сб 9:00-18:00, Вс - выходной
+            </p>
+          </div>
+          <div class="footer__phone-number">
+            <a class="footer__phone-number-link" href="tel:+74951420725"
+              >+7 (495) 142-07-25</a
+            >
+            <a class="footer__phone-number-link" href="tel:+79779080250"
+              >+7 (977) 908-02-50</a
+            >
+          </div>
+          <div class="footer__connection">
+            <p class="footer__message-text">Мы в социальных сетях:</p>
+            <div class="footer__message">
+              <a class="footer__message-link" href="#">
+                <img src="./images/icons/youtube.svg" alt="youtube" />
+              </a>
+              <a class="footer__message-link" href="#">
+                <img src="./images/icons/instagram.svg" alt="instagram" />
+              </a>
+              <a class="footer__message-link" href="#">
+                <img src="./images/icons/vk.svg" alt="vk" />
+              </a>
+              <a class="footer__message-link" href="#">
+                <img src="./images/icons/whatsapp.svg" alt="whatsapp" />
+              </a>
+              <a class="footer__message-link" href="#">
+                <img src="./images/icons/telegram.svg" alt="telegram" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__border"></div>
+        <div class="footer__catalog">
+          <nav class="footer__navigation">
+            <ul class="footer__navigation-list footer__navigation--first">
+              <span class="footer__navigation-title">ПРОДУКЦИЯ</span>
+              <li>
+                <a href="#" class="footer__navigation-link">Каркасные дома</a>
+              </li>
+              <li>
+                <a href="#" class="footer__navigation-link">Модульные дома</a>
+              </li>
+              <li>
+                <a href="#" class="footer__navigation-link">Бани “Под ключ”</a>
+              </li>
+              <li><a href="#" class="footer__navigation-link">Беседки</a></li>
+              <li>
+                <a href="#" class="footer__navigation-link"
+                  >Бытовки (утепленные)</a
+                >
+              </li>
+              <li>
+                <a href="#" class="footer__navigation-link pernos"
+                  >Хоз. постройки <br />(без утепления)</a
+                >
+              </li>
+            </ul>
+            <ul class="footer__navigation-list footer__navigation--second">
+              <span class="footer__navigation-title">КОМПЛЕКТАЦИЯ</span>
+              <li>
+                <a href="#" class="footer__navigation-link"
+                  >Комплектация домов</a
+                >
+              </li>
+              <li>
+                <a href="#" class="footer__navigation-link"
+                  >Комплектация бань</a
+                >
+              </li>
+              <li>
+                <a href="#" class="footer__navigation-link"
+                  >Комплектация беседок</a
+                >
+              </li>
+              <li>
+                <a href="#" class="footer__navigation-link"
+                  >Комплектация бытовок</a
+                >
+              </li>
+              <li>
+                <a href="#" class="footer__navigation-link"
+                  >Комплектация <br />хоз. построек
+                </a>
+              </li>
+            </ul>
+            <ul class="footer__navigation-list footer__navigation--third">
+              <span class="footer__navigation-title">ЗАКАЗЧИКУ</span>
+              <li>
+                <a href="#" class="footer__navigation-link pernos"
+                  >Индивидуальное <br />
+                  строительство</a
+                >
+              </li>
+              <li>
+                <a href="#" class="footer__navigation-link"
+                  >Фиксированные цены</a
+                >
+              </li>
+              <li>
+                <a href="#" class="footer__navigation-link pernos"
+                  >Дистанционное <br />
+                  оформление договора</a
+                >
+              </li>
+              <li>
+                <a href="#" class="footer__navigation-link"
+                  >Материнский капитал</a
+                >
+              </li>
+              <li>
+                <a href="#" class="footer__navigation-link">Порядок оплаты</a>
+              </li>
+              <li>
+                <a href="#" class="footer__navigation-link">Процесс заказа</a>
+              </li>
+            </ul>
+            <ul class="footer__navigation-list">
+              <span class="footer__navigation-title">ПОЛЕЗНО</span>
+              <li>
+                <a href="#" class="footer__navigation-link"
+                  >Доставка и сборка</a
+                >
+              </li>
+              <li><a href="#" class="footer__navigation-link">Контакты</a></li>
+              <li>
+                <a href="#" class="footer__navigation-link">Наши работы</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="footer__container-button-link">
+            <a
+              href="#"
+              class="footer__button-link footer__button-link-calculator"
+              >ЧЕСТНЫЙ КАЛЬКУЛЯТОР <br />
+              БЕСЕДОК</a
+            >
+            <a
+              href="#"
+              class="footer__button-link footer__button-link-connection"
+              >СВЯЗАТЬСЯ С НАМИ</a
+            >
+          </div>
+        </div>
+        <div class="footer__law">
+          <p class="footer__law-text">
+            Copyright © “ДОМСТРОЙ” 2022. Все права защищены.
+          </p>
+          <p class="footer__law-text">Политика конфиденциальности</p>
+          <p class="footer__law-text">Пользовательское соглашение</p>
+          <p class="footer__law-text">Cookies</p>
+        </div>
+      </footer>
+    </div>
+
+    <div class="container__mobile">
+      <header class="header__mobile">
+        <div class="logo__mobile">
+          <h3 class="logo__mobile-title">СТРОИТЕЛЬНАЯ КОМПАНИЯ</h3>
+          <img
+            class="logo"
+            src="./images/img-mobile/logo-mobile.png"
+            alt="logo"
+          />
+        </div>
+        <button class="hamburger">
+          <img src="./images/img-mobile/hamburger.svg" alt="hamburger" />
+        </button>
+        <div class="header__mobile-menu">
+          <div class="header__mobile-container-logo">
+            <div class="logo__mobile-menu">
+              <h3 class="logo__mobile-title">СТРОИТЕЛЬНАЯ КОМПАНИЯ</h3>
+              <img
+                class="logo"
+                src="./images/img-mobile/logo-mobile.png"
+                alt="logo"
+              />
+            </div>
+            <button class="header__mobile-menu-exit">
+              <img src="./images/img-mobile/exit.svg" alt="exit" />
+            </button>
+          </div>
+          <div
+            class="header__mobile-menu-container header__mobile-menu-container--active"
+          >
+            <nav class="header__mobile-navigation">
+              <ul class="header__mobile-list">
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link">Главная</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link">Комплектация</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link">Каталог</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link">Заказчику</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link">Доставка</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link">Наши работы</a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="#" class="header__mobile-link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="border-menu-mobile"></div>
+            <div class="header__menu-mobile-contacts">
+              <p class="header__mobile-text-email">
+                Пишите нам:<a href="#" class="header__mobile-menu-email"
+                  >domstroy-st@bk.ru</a
+                >
+              </p>
+              <p class="header__menu-mobile-address">
+                Моск.обл. г.Ступино ул.Промышленная (200м от завода "Изомин")
+              </p>
+              <p class="header__menu-mobile-schedule">
+                Пн-Сб 9:00-18:00, Вс - выходной
+              </p>
+            </div>
+            <div class="header__menu-mobile-phone">
+              <a class="header__menu-mobile-link" href="tel:+74951420725"
+                >+7 (495) 142-07-25</a
+              >
+              <a class="header__menu-mobile-link" href="tel:+79779080250"
+                >+7 (977) 908-02-50</a
+              >
+            </div>
+            <div class="header__mobile-masseng">
+              <a href="#"
+                ><img src="./images/icons/youtube.svg" alt="youtube"
+              /></a>
+              <a href="#"
+                ><img src="./images/icons/instagram.svg" alt="instagram"
+              /></a>
+              <a href="#"><img src="./images/icons/vk.svg" alt="vk" /></a>
+              <a href="#"
+                ><img src="./images/icons/whatsapp.svg" alt="whatsapp"
+              /></a>
+              <a href="#"
+                ><img src="./images/icons/telegram.svg" alt="telegram"
+              /></a>
+            </div>
+            <div class="header__mobile-menu-button">
+              <a class="header__mobile-menu-link" href="#">ЗАКАЗАТЬ ЗВОНОК</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="description__mobile">
+        <div class="description__mobile-title-container">
+          <h1 class="description__mobile-title-text">
+            СТРОИТЕЛЬСТВО ДАЧНЫХ ДОМОВ И КОТТЕДЖЕЙ
+          </h1>
+        </div>
+        <div class="description__mobile-description-container">
+          <p class="description__mobile-description-text">
+            На участок поставляются готовые модули, производится их монтаж в
+            короткие сроки. <br />
+            Мы гарантируем выполнение всех взятых на себя обязательств и
+            доступные цены.
+          </p>
+        </div>
+        <div class="calculator__mobile-link-container">
+          <a href="#" class="calculator__mobile-link"
+            ><img
+              src="./images/img-mobile/strelka-mobile.svg"
+              alt="calculator-prise"
+            />
+            <span class="text-link">РАССЧИТАТЬ СТОИМОСТЬ</span>
           </a>
         </div>
-      </div>
-    </section>
-
-    <section class="suggestions">
-      <div class="suggestions-container">
-        <div class="suggestions-content">
-          <h3 class="suggestions-title">Предложения для вас</h3>
-          <div class="suggestions__building">
-            <a class="suggestions__building-link" href="#">Каркасные дома</a>
-            <a class="suggestions__building-link" href="#">Бани</a>
-            <a class="suggestions__building-link" href="#">Беседки</a>
-            <a class="suggestions__building-link" href="#">Бытовки</a>
-            <a class="suggestions__building-link" href="#"> Хоз. постройки</a>
-          </div>
+      </section>
+      <section class="products__mobile">
+        <h3 class="products__mobile-title">Предложения для вас</h3>
+        <div class="products__mobile-filter">
+          <ul class="products__mobile-filter-list">
+            <div class="grid1">
+              <li class="find-filter find-filter--active">
+                <a class="find-filter-link" href="#">Каркасные дома</a>
+              </li>
+              <li class="find-filter">
+                <a class="find-filter-link" href="#">Бани</a>
+              </li>
+            </div>
+            <div class="grid2">
+              <li class="find-filter">
+                <a class="find-filter-link" href="#">Беседки</a>
+              </li>
+              <li class="find-filter">
+                <a class="find-filter-link" href="#">Бытовки</a>
+              </li>
+            </div>
+            <div class="grid3">
+              <li class="find-filter">
+                <a class="find-filter-link" href="#">Хоз. постройки</a>
+              </li>
+            </div>
+          </ul>
         </div>
-
-        <div class="wrapper">
-          <div class="swiper products__swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide swiper-slide--1 ">
-                <div class="products">
-                  <img class="frame-house" src="./images/swiper/Frame-house.jpg" alt="Frame-house">
-                  <div class="suggestions__discription">
-                    <h4 class="name-products">Каркасный дом с<br> балконом LK-2</h4>
-                    <div class="discription-products">
-                      <p class="size">Размер: <span class="numbers-size">4х6 м</span></p>
-                      <p class="square">Площадь:<span class="numbers-square">34.8 м2</span></p>
-                      <p class="rooms">Количество комнат: <span class="numbers-rooms">3 шт</span></p>
-                      <p class="price">940 000 ₽</p>
+        <div class="mobile-first-swiper">
+          <div class="wrapper">
+            <div class="swiper products__swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="products">
+                    <img
+                      class="frame-house"
+                      src="./images/swiper/Frame-house.jpg"
+                      alt="Frame-house"
+                    />
+                    <div class="suggestions__discription">
+                      <h4 class="name-products">
+                        Каркасный дом с<br />
+                        балконом LK-2
+                      </h4>
+                      <div class="discription-products">
+                        <p class="size">
+                          Размер: <span class="numbers-size">4х6 м</span>
+                        </p>
+                        <p class="square">
+                          Площадь:<span class="numbers-square">34.8 м2</span>
+                        </p>
+                        <p class="rooms">
+                          Количество комнат:
+                          <span class="numbers-rooms">3 шт</span>
+                        </p>
+                        <p class="price">940 000 ₽</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="products">
-                  <img class="frame-house" src="./images/swiper/Frame-house2.jpg" alt="Frame-house">
-                  <div class="suggestions__discription">
-                    <h4 class="name-products">Каркасный дом с<br> балконом LK-2</h4>
-                    <div class="discription-products">
-                      <p class="size">Размер: <span class="numbers-size">4х6 м</span></p>
-                      <p class="square">Площадь:<span class="numbers-square">34.8 м2</span></p>
-                      <p class="rooms">Количество комнат: <span class="numbers-rooms">3 шт</span></p>
-                      <p class="price">940 000 ₽</p>
+                <div class="swiper-slide">
+                  <div class="products">
+                    <img
+                      class="frame-house"
+                      src="./images/swiper/Frame-house2.jpg"
+                      alt="Frame-house"
+                    />
+                    <div class="suggestions__discription">
+                      <h4 class="name-products">
+                        Каркасный дом с<br />
+                        балконом LK-2
+                      </h4>
+                      <div class="discription-products">
+                        <p class="size">
+                          Размер: <span class="numbers-size">4х6 м</span>
+                        </p>
+                        <p class="square">
+                          Площадь:<span class="numbers-square">34.8 м2</span>
+                        </p>
+                        <p class="rooms">
+                          Количество комнат:
+                          <span class="numbers-rooms">3 шт</span>
+                        </p>
+                        <p class="price">940 000 ₽</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="products">
-                  <img class="frame-house" src="./images/swiper/Frame-house3.jpg" alt="Frame-house">
-                  <div class="suggestions__discription">
-                    <h4 class="name-products">Каркасный дом с<br> балконом LK-2</h4>
-                    <div class="discription-products">
-                      <p class="size">Размер: <span class="numbers-size">4х6 м</span></p>
-                      <p class="square">Площадь:<span class="numbers-square">34.8 м2</span></p>
-                      <p class="rooms">Количество комнат: <span class="numbers-rooms">3 шт</span></p>
-                      <p class="price">940 000 ₽</p>
+                <div class="swiper-slide">
+                  <div class="products">
+                    <img
+                      class="frame-house"
+                      src="./images/swiper/Frame-house3.jpg"
+                      alt="Frame-house"
+                    />
+                    <div class="suggestions__discription">
+                      <h4 class="name-products">
+                        Каркасный дом с<br />
+                        балконом LK-2
+                      </h4>
+                      <div class="discription-products">
+                        <p class="size">
+                          Размер: <span class="numbers-size">4х6 м</span>
+                        </p>
+                        <p class="square">
+                          Площадь:<span class="numbers-square">34.8 м2</span>
+                        </p>
+                        <p class="rooms">
+                          Количество комнат:
+                          <span class="numbers-rooms">3 шт</span>
+                        </p>
+                        <p class="price">940 000 ₽</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="products">
-                  <img class="frame-house" src="./images/swiper/Frame-house4.jpg" alt="Frame-house">
-                  <div class="suggestions__discription">
-                    <h4 class="name-products">Каркасный дом с<br> балконом LK-2</h4>
-                    <div class="discription-products">
-                      <p class="size">Размер: <span class="numbers-size">4х6 м</span></p>
-                      <p class="square">Площадь:<span class="numbers-square">34.8 м2</span></p>
-                      <p class="rooms">Количество комнат: <span class="numbers-rooms">3 шт</span></p>
-                      <p class="price">940 000 ₽</p>
+                <div class="swiper-slide">
+                  <div class="products">
+                    <img
+                      class="frame-house"
+                      src="./images/swiper/Frame-house4.jpg"
+                      alt="Frame-house"
+                    />
+                    <div class="suggestions__discription">
+                      <h4 class="name-products">
+                        Каркасный дом с<br />
+                        балконом LK-2
+                      </h4>
+                      <div class="discription-products">
+                        <p class="size">
+                          Размер: <span class="numbers-size">4х6 м</span>
+                        </p>
+                        <p class="square">
+                          Площадь:<span class="numbers-square">34.8 м2</span>
+                        </p>
+                        <p class="rooms">
+                          Количество комнат:
+                          <span class="numbers-rooms">3 шт</span>
+                        </p>
+                        <p class="price">940 000 ₽</p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="swiper-button-prev">
-            <img class="button-swiper" src="./images/svg/VectorPrev.svg" alt="prev">
-          </div>
-          <div class="swiper-button-next">
-            <img class="button-swiper" src="./images/svg/VectorNext.svg" alt="next">
-          </div>
         </div>
-        <div class="watch-all-project-container">
-          <a class="watch-all-project" href="#">
-            СМОТРЕТЬ ВСЕ ПРОЕКТЫ
-          </a>
+        <div class="products__mobile-all">
+          <a class="all-projects-link" href="#">СМОТРЕТЬ ВСЕ ПРОЕКТЫ</a>
         </div>
-      </div>
-    </section>
-    <section class="assistance-families">
-      <div class="assistance-families__content">
-        <div class="assistance-families__image">
-          <img src="./images/family.jpg" alt="family">
-        </div>
+      </section>
+      <section class="family__mobile-container">
         <div class="wrapper-family">
           <div class="swiper swiper__family">
             <div class="swiper-wrapper">
-              <div class="swiper-slide  swiper-slide--famaly">
-                <div class="assistance-families__slide">
-                  <h3 class="assistance-families__title">
-                    Мы работаем с<br>
-                    <span>материнским капиталом!</span>
+              <div class="swiper-slide swiper-slide--famaly">
+                <div class="family__container-information">
+                  <h3 class="family__title">
+                    Мы работаем с <b>материнским капиталом!</b>
                   </h3>
-                  <div class="request">
-                    <a href="#" class="request-link">Оставить<br> заявку</a>
+                  <div class="button-link-container">
+                    <a href="#" class="button-link"
+                      >Оставить <br />
+                      заявку</a
+                    >
                   </div>
                 </div>
               </div>
             </div>
-            <div class=" swiper-button-next-1">
-              <img class="button-swiper-1" src="./images/svg/Arrow.svg" alt="next">
+          </div>
+        </div>
+        <div class="swiper-button-next-1">
+          <img
+            class="button-swiper-1"
+            src="./images/svg/Arrow.svg"
+            alt="next"
+          />
+        </div>
+        <div class="swiper-button-prev-1">
+          <img
+            class="button-swiper-1"
+            src="./images/svg/Arrow10.svg"
+            alt="prev"
+          />
+        </div>
+        <div class="swiper-pagination"></div>
+      </section>
+      <section class="suggestions-mobile">
+        <div class="suggestions-mobile-container">
+          <h2 class="suggestions-mobile-title">Наши преимущества</h2>
+          <div class="swiper mobileSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="suggestions-mobile__container">
+                  <div class="suggestions-mobile__content">
+                    <img
+                      class="suggestions-mobile__content-image"
+                      src="./images/img-mobile/content/certificate.png"
+                      alt="certificate"
+                    />
+                    <h3 class="suggestions-mobile-content-title">
+                      Работаем строго по договору
+                    </h3>
+                    <p class="suggestions-mobile-content-text">
+                      Стоимость строительсва фиксированная. И все наши
+                      обязательства прописаны в договоре.
+                    </p>
+                  </div>
+                  <div class="suggestions-mobile__content">
+                    <img
+                      class="suggestions-mobile__content-image"
+                      src="./images/img-mobile/content/certificate.png"
+                      alt="certificate"
+                    />
+                    <h3 class="suggestions-mobile-content-title">
+                      Работаем строго по договору
+                    </h3>
+                    <p class="suggestions-mobile-content-text">
+                      Стоимость строительсва фиксированная. И все наши
+                      обязательства прописаны в договоре.
+                    </p>
+                  </div>
+                  <div class="suggestions-mobile__content">
+                    <img
+                      class="suggestions-mobile__content-image"
+                      src="./images/img-mobile/content/certificate.png"
+                      alt="certificate"
+                    />
+                    <h3 class="suggestions-mobile-content-title">
+                      Работаем строго по договору
+                    </h3>
+                    <p class="suggestions-mobile-content-text">
+                      Стоимость строительсва фиксированная. И все наши
+                      обязательства прописаны в договоре.
+                    </p>
+                  </div>
+                  <div class="suggestions-mobile__content">
+                    <img
+                      class="suggestions-mobile__content-image"
+                      src="./images/img-mobile/content/certificate.png"
+                      alt="certificate"
+                    />
+                    <h3 class="suggestions-mobile-content-title">
+                      Работаем строго по договору
+                    </h3>
+                    <p class="suggestions-mobile-content-text">
+                      Стоимость строительсва фиксированная. И все наши
+                      обязательства прописаны в договоре.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="suggestions-mobile__container">
+                  <div class="suggestions-mobile__content">
+                    <img
+                      class="suggestions-mobile__content-image"
+                      src="./images/img-mobile/content/certificate.png"
+                      alt="certificate"
+                    />
+                    <h3 class="suggestions-mobile-content-title">
+                      Работаем строго по договору
+                    </h3>
+                    <p class="suggestions-mobile-content-text">
+                      Стоимость строительсва фиксированная. И все наши
+                      обязательства прописаны в договоре.
+                    </p>
+                  </div>
+                  <div class="suggestions-mobile__content">
+                    <img
+                      class="suggestions-mobile__content-image"
+                      src="./images/img-mobile/content/certificate.png"
+                      alt="certificate"
+                    />
+                    <h3 class="suggestions-mobile-content-title">
+                      Работаем строго по договору
+                    </h3>
+                    <p class="suggestions-mobile-content-text">
+                      Стоимость строительсва фиксированная. И все наши
+                      обязательства прописаны в договоре.
+                    </p>
+                  </div>
+                  <div class="suggestions-mobile__content">
+                    <img
+                      class="suggestions-mobile__content-image"
+                      src="./images/img-mobile/content/certificate.png"
+                      alt="certificate"
+                    />
+                    <h3 class="suggestions-mobile-content-title">
+                      Работаем строго по договору
+                    </h3>
+                    <p class="suggestions-mobile-content-text">
+                      Стоимость строительсва фиксированная. И все наши
+                      обязательства прописаны в договоре.
+                    </p>
+                  </div>
+                  <div class="suggestions-mobile__content">
+                    <img
+                      class="suggestions-mobile__content-image"
+                      src="./images/img-mobile/content/certificate.png"
+                      alt="certificate"
+                    />
+                    <h3 class="suggestions-mobile-content-title">
+                      Работаем строго по договору
+                    </h3>
+                    <p class="suggestions-mobile-content-text">
+                      Стоимость строительсва фиксированная. И все наши
+                      обязательства прописаны в договоре.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class=" swiper-button-prev-1">
-              <img class="button-swiper-1" src="./images/svg/Arrow10.svg" alt="prev">
+            <div class="naw-mobile">
+              <div class="swiper-button-prev-3">
+                <img
+                  class="button-prev-3"
+                  src="./images/img-mobile/content/VectorPrev.svg"
+                  alt="prev"
+                />
+              </div>
+              <div class="swiper-button-next-3">
+                <img
+                  class="button-next-3"
+                  src="./images/img-mobile/content/VectorNext.svg"
+                  alt="next"
+                />
+              </div>
             </div>
-            <div class="swiper-pagination"></div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="advantage">
-      <div class="advantage__content">
-        <h3 class="advantage__content-title">Наши преимущества</h3>
-        <div class="advantage__content-advantages">
-          <div class="advantage__content-subparahgraph subparahgraph">
-            <h4 class="advantage__content-subparahgraph-title">Работаем строго по договору</h4>
-            <p class="advantage__content-subparahgraph-text">Стоимость строительсва фиксированная. <br>
-              И все наши обязательства прописаны в договоре.
-            </p>
-            <img class="advantage__content-subparahgraph-img" src="./images/advantage/certificate.png" alt="certificate">
-          </div>
-          <div class="advantage__content-subparagraph subparahgraph">
-            <h4 class="advantage__content-subparahgraph-title">Выставка и собственное производство</h4>
-            <p class="advantage__content-subparahgraph-text">Лучшее соотношение цены и качества. К нам <br> возвращаются наши клиенты и рекомендуют своим <br> знакомым.</p>
-            <img class="advantage__content-subparahgraph-img" src="./images/advantage/badge.png" alt="badge">
-          </div>
-          <div class="advantage__content-subparagraph subparahgraph">
-            <h4 class="advantage__content-subparahgraph-title">Честная цена и понятные условия</h4>
-            <p class="advantage__content-subparahgraph-text">Поэтапная оплата. Нет скрытых платежей и мелких <br> шрифтов.
-            </p>
-            <img class="advantage__content-subparahgraph-img" src="./images/advantage/money-sack.png" alt="money-sack">
-          </div>
-          <div class="advantage__content-subparagraph subparahgraph">
-            <h4 class="advantage__content-subparahgraph-title">Экологически чистый материал</h4>
-            <p class="advantage__content-subparahgraph-text">Сертифицированные, экологичные материалы от <br> проверенных поставщиков.</p>
-            <img class="advantage__content-subparahgraph-img" src="./images/advantage//goal.png" alt="goal">
-          </div>
-          <div class="advantage__content-subparagraph subparahgraph">
-            <h4 class="advantage__content-subparahgraph-title">Фотоотчет процесса строительства</h4>
-            <p class="advantage__content-subparahgraph-text">Бесплатный фото или видео отчет <br>
-              (по договорённости)
-            </p>
-            <img class="advantage__content-subparahgraph-img" src="./images/advantage/running-man.png" alt="running-man">
-          </div>
-          <div class="advantage__content-subparagraph subparahgraph">
-            <h4 class="advantage__content-subparahgraph-title">Гарантийное обслуживание <br> любой постройки</h4>
-            <p class="advantage__content-subparahgraph-text">Даем гарантию не на словах.</p>
-            <img class="advantage__content-subparahgraph-img" src="./images/advantage/receipt.png" alt="receipt">
-          </div>
-          <div class="advantage__content-subparagraph subparahgraph">
-            <h4 class="advantage__content-subparahgraph-title">Более 7 лет опыта</h4>
-            <p class="advantage__content-subparahgraph-text">Современное и качественное строительство, <br> опытными бригадами.
-            </p>
-            <img class="advantage__content-subparahgraph-img" src="./images/advantage/certificate.png" alt="certificate">
-          </div>
-          <div class="advantage__content-subparagraph subparahgraph">
-            <h4 class="advantage__content-subparahgraph-title">Индивидуальные проекты</h4>
-            <p class="advantage__content-subparahgraph-text">Возможны изменения проектов из каталога и <br> строительство по индивидуальным планам.</p>
-            <img class="advantage__content-subparahgraph-img" src="./images/advantage/quality.png" alt="quality">
-          </div>
-        </div>
-      </div>
-      <div class="dvantage__content-vk">
-        <div class="dvantage__content-vk-block-content">
-          <h4 class="dvantage__content-vk-title"><b>Хотите узнавать</b> о строящихся объектах, акциях и спецпредложениях?</h4>
-          <p class="dvantage__content-vk-text">Подпишитесь на нашу группу ВКонтакте и узнавайте свежие<br> новости и полезную информацию раньше всех!</p>
-        </div>
-        <div class="dvantage__content-vk-block-link">
-          <a class="dvantage__content-vk-link" href="#">Подписаться НА ГРУППУ ВКОНТАКТЕ</a>
-        </div>
-      </div>
-    </section>
-    <section class="order">
-      <img class="order__image" src="./images/cottage.jpg" alt="cottage">
-      <div class="order__content">
-        <div class="order__content-content">
-          <h4 class="order__content-title">Планируете построить <b>индивидуальное строение? Свяжитесь с нами.</b></h4>
-          <p class="order__content-text">
-            Хотите постройку в современном минималистичном стиле, но ни один из типовых проектов Вам не подходит?
-            <br> Выход есть!
+
+        <div class="messang-vk">
+          <h2 class="messang-vk-title">
+            <b>Хотите узнавать</b> о строящихся объектах, акциях и
+            спецпредложениях?
+          </h2>
+          <p class="messang-vk-text">
+            Подпишитесь на нашу группу ВКонтакте и узнавайте свежие новости и
+            полезную информацию раньше всех!
           </p>
-          <p class="order__content-text second">
+          <div class="messang-vk-container">
+            <a href="#" class="messang-vk-link">
+              Подписаться НА ГРУППУ ВКОНТАКТЕ
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="connection-mobile">
+        <div class="connection-description-container">
+          <h2 class="connection-description-title">
+            Планируете построить<b>
+              индивидуальное строение? Свяжитесь с нами.</b
+            >
+          </h2>
+          <p class="connection-description-text">
+            Хотите постройку в современном минималистичном стиле, но ни один из
+            типовых проектов Вам не подходит? Выход есть!
+          </p>
+          <p
+            class="connection-description-text connection-description-text--second"
+          >
             Свяжитесь с нами и мы реализуем задуманное.
           </p>
         </div>
-        <div class="order__request">
-          <a href="#" class="order__request-link">Связаться с нами</a>
-        </div>
-      </div>
-    </section>
-    <section class="comments">
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="comments__container">
-              <div class="comments__comment-container">
-                <p class="review">
-                  &#8226; Отзывы &#8226;
-                </p>
-                <h4 class="comments__container-userName">Джон Джон Джон</h4>
-                <div class="comments__container-text">
-                  <p class="comments__container-text-1">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
-                  </p>
-                  <br>
-                  <p class="comments__container-text-2">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
-                  </p>
-                </div>
-                <div class="comments__border"></div>
-                <div class="comments__order">
-                  <p class="comments__order-text">Изготовление каркасного <br> дома с балконом</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="comments__container">
-              <div class="comments__comment-container">
-                <p class="review">
-                  &#8226; Отзывы &#8226;
-                </p>
-                <h4 class="comments__container-userName">Джон Джон Джон</h4>
-                <div class="comments__container-text">
-                  <p class="comments__container-text-1">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
-                  </p>
-                  <br>
-                  <p class="comments__container-text-2">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
-                  </p>
-                </div>
-                <div class="comments__border"></div>
-                <div class="comments__order">
-                  <p class="comments__order-text">Изготовление каркасного <br> дома с балконом</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="comments__container">
-              <div class="comments__comment-container">
-                <p class="review">
-                  &#8226; Отзывы &#8226;
-                </p>
-                <h4 class="comments__container-userName">Джон Джон Джон</h4>
-                <div class="comments__container-text">
-                  <p class="comments__container-text-1">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
-                  </p>
-                  <br>
-                  <p class="comments__container-text-2">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
-                  </p>
-                </div>
-                <div class="comments__border"></div>
-                <div class="comments__order">
-                  <p class="comments__order-text">Изготовление каркасного <br> дома с балконом</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="swiper-button-prev-2">
-          <img class="button-swiper-2" src="./images/svg/VectorPrev.svg" alt="prev">
-        </div>
-        <div class="swiper-button-next-2">
-          <img class="button-swiper-2" src="./images/svg/VectorNext.svg" alt="next">
-        </div>
-      </div>
-    </section>
-    <section class="map">
-      <div class="map__yandex">
-        <iframe class="map__yandex-map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A989a7ef7a61ca14947f7abc44478e1cf6d5ede4725a6c07eea666757d38ad2de&amp;source=constructor" width="100%" height="768" frameborder="0"></iframe>
-      </div>
-      <div class="map__tadle-info">
-        <div class="map__tadle-info-text">
-          <h3 class="map__tadle-title">Контакты</h3>
-          <p class="map__tadle-address">Адрес:</p>
-          <P class="map__tadle-address-text map__tadle-address-text-top">Моск.обл. г.Ступино ул.Промышленная <br>(200м от завода "Изомин")</P>
-          <p class="map__tadle-address-text">Пн-Сб 9:00-18:00, Вс - выходной</p>
-          <p class="map__tadle-address-text-contact">Контакты:</p>
-          <div class="map__table-phone">
-            <a href="tel:+74951420725" class="map__table-phone-link map__table-phone-link-top">+7 (495) 142-07-25</a>
-            <a href="tel:+79779080250" class="map__table-phone-link">+7 (977) 908-02-50</a>
-          </div>
-          <div class="map__message">
-            <div class="map__message-email-container">
-              <a class="map__message-email" href="domstroy-st@bk.ru">domstroy-st@bk.ru</a>
-            </div>
-            <div class="map__message-container">
-              <a class="map__message-link" href="#">
-                <img src="./images/icons/youtube.svg" alt="youtube">
-              </a>
-              <a class="map__message-link" href="#">
-                <img src="./images/icons/instagram.svg" alt="instagram">
-              </a>
-              <a class="map__message-link" href="#">
-                <img src="./images/icons/vk.svg" alt="vk">
-              </a>
-              <a class="map__message-link" href="#">
-                <img src="./images/icons/whatsapp.svg" alt="whatsapp">
-              </a>
-              <a class="map__message-link" href="#">
-                <img src="./images/icons/telegram.svg" alt="telegram">
-              </a>
-            </div>
-          </div>
-          <div class="map__quesetion">
-            <a href="#" class="question">Задать вопрос</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="footer__information">
-        <div class="footer__logo">
-          <h4 class="footer__logo-text">строительная компания</h4>
-          <img src="./images/logo.png" class="footer__logo-image" alt="logo">
-        </div>
-        <div class="footer__company">
-          <p class="footer__company-email company-footer">Пишите нам:
-            <a class="footer__email" href="#">domstroy-st@bk.ru</a>
-          </p>
-          <p class="footer__company-address company-footer">Моск.обл. г.Ступино ул.Промышленная</p>
-          <p class="footer__company-schedule company-footer">Пн-Сб 9:00-18:00, Вс - выходной</p>
-        </div>
-        <div class="footer__phone-number ">
-          <a class="footer__phone-number-link" href="tel:+74951420725">+7 (495) 142-07-25</a>
-          <a class="footer__phone-number-link" href="tel:+79779080250">+7 (977) 908-02-50</a>
-        </div>
-        <div class="footer__connection">
-          <p class="footer__message-text">Мы в социальных сетях:</p>
-          <div class="footer__message">
-            <a class="footer__message-link" href="#">
-              <img src="./images/icons/youtube.svg" alt="youtube">
-            </a>
-            <a class="footer__message-link" href="#">
-              <img src="./images/icons/instagram.svg" alt="instagram">
-            </a>
-            <a class="footer__message-link" href="#">
-              <img src="./images/icons/vk.svg" alt="vk">
-            </a>
-            <a class="footer__message-link" href="#">
-              <img src="./images/icons/whatsapp.svg" alt="whatsapp">
-            </a>
-            <a class="footer__message-link" href="#">
-              <img src="./images/icons/telegram.svg" alt="telegram">
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="footer__border"></div>
-      <div class="footer__catalog">
-        <nav class="footer__navigation">
-          <ul class="footer__navigation-list footer__navigation--first"> <span class="footer__navigation-title">ПРОДУКЦИЯ</span>
-            <li><a href="#" class="footer__navigation-link">Каркасные дома</a></li>
-            <li><a href="#" class="footer__navigation-link">Модульные дома</a></li>
-            <li><a href="#" class="footer__navigation-link">Бани “Под ключ”</a></li>
-            <li><a href="#" class="footer__navigation-link">Беседки</a></li>
-            <li><a href="#" class="footer__navigation-link">Бытовки (утепленные)</a></li>
-            <li><a href="#" class="footer__navigation-link pernos">Хоз. постройки <br>(без утепления)</a></li>
-          </ul>
-          <ul class="footer__navigation-list footer__navigation--second"><span class="footer__navigation-title">КОМПЛЕКТАЦИЯ</span>
-            <li><a href="#" class="footer__navigation-link">Комплектация домов</a></li>
-            <li><a href="#" class="footer__navigation-link">Комплектация бань</a></li>
-            <li><a href="#" class="footer__navigation-link">Комплектация беседок</a></li>
-            <li><a href="#" class="footer__navigation-link">Комплектация бытовок</a></li>
-            <li><a href="#" class="footer__navigation-link">Комплектация <br>хоз. построек </a></li>
-          </ul>
-          <ul class="footer__navigation-list footer__navigation--third"><span class="footer__navigation-title">ЗАКАЗЧИКУ</span>
-            <li><a href="#" class="footer__navigation-link pernos">Индивидуальное <br> строительство</a></li>
-            <li><a href="#" class="footer__navigation-link">Фиксированные цены</a></li>
-            <li><a href="#" class="footer__navigation-link pernos ">Дистанционное <br> оформление договора</a></li>
-            <li><a href="#" class="footer__navigation-link">Материнский капитал</a></li>
-            <li><a href="#" class="footer__navigation-link">Порядок оплаты</a></li>
-            <li><a href="#" class="footer__navigation-link">Процесс заказа</a></li>
-          </ul>
-          <ul class="footer__navigation-list"><span class="footer__navigation-title">ПОЛЕЗНО</span>
-            <li><a href="#" class="footer__navigation-link">Доставка и сборка</a></li>
-            <li><a href="#" class="footer__navigation-link">Контакты</a></li>
-            <li><a href="#" class="footer__navigation-link">Наши работы</a></li>
-          </ul>
-        </nav>
-        <div class="footer__container-button-link">
-          <a href="#" class="footer__button-link footer__button-link-calculator">ЧЕСТНЫЙ КАЛЬКУЛЯТОР <br> БЕСЕДОК</a>
-          <a href="#" class="footer__button-link footer__button-link-connection">СВЯЗАТЬСЯ С НАМИ</a>
-        </div>
-      </div>
-      <div class="footer__law">
-        <p class="footer__law-text">Copyright © “ДОМСТРОЙ” 2022. Все права защищены.</p>
-        <p class="footer__law-text">Политика конфиденциальности</p>
-        <p class="footer__law-text">Пользовательское соглашение</p>
-        <p class="footer__law-text">Cookies</p>
-      </div>
-    </footer>
-  </div>
-
-
-
-  <div class="container__mobile">
-    <header class="header__mobile">
-      <div class="logo__mobile">
-        <h3 class="logo__mobile-title">СТРОИТЕЛЬНАЯ КОМПАНИЯ</h3>
-        <img class="logo" src="./images/img-mobile/logo-mobile.png" alt="logo">
-      </div>
-      <button class="hamburger">
-        <img src="./images/img-mobile/hamburger.svg" alt="hamburger">
-      </button>
-      <div class="header__mobile-menu">
-        <div class="header__mobile-container-logo">
-          <img class="logo-menu" src="./images/img-mobile/logo-mobile.png" alt="logo">
-          <button class="header__mobile-menu-exit">
-            <img src="./images/img-mobile/exit.svg" alt="exit">
-          </button>
-        </div>
-        <div class="header__mobile-menu-container header__mobile-menu-container--active">
-          <nav class="header__mobile-navigation">
-            <ul class="header__mobile-list">
-              <li class="header__mobile-item"><a href="#" class="header__mobile-link">Главная</a></li>
-              <li class="header__mobile-item"><a href="#" class="header__mobile-link">Комплектация</a></li>
-              <li class="header__mobile-item"><a href="#" class="header__mobile-link">Каталог</a></li>
-              <li class="header__mobile-item"><a href="#" class="header__mobile-link">Заказчику</a></li>
-              <li class="header__mobile-item"><a href="#" class="header__mobile-link">Доставка</a></li>
-              <li class="header__mobile-item"><a href="#" class="header__mobile-link">Наши работы</a></li>
-              <li class="header__mobile-item"><a href="#" class="header__mobile-link">Контакты</a></li>
-            </ul>
-          </nav>
-          <div class="border-menu-mobile"></div>
-          <div class="header__menu-mobile-contacts">
-            <p class="header__mobile-text-email">Пишите нам:<a href="#" class="header__mobile-menu-email">domstroy-st@bk.ru</a></p>
-            <p class="header__menu-mobile-address">Моск.обл. г.Ступино ул.Промышленная (200м от завода "Изомин")</p>
-            <p class="header__menu-mobile-schedule">Пн-Сб 9:00-18:00, Вс - выходной</p>
-          </div>
-          <div class="header__menu-mobile-phone">
-            <a class="header__menu-mobile-link" href="tel:+74951420725">+7 (495) 142-07-25</a>
-            <a class="header__menu-mobile-link" href="tel:+79779080250">+7 (977) 908-02-50</a>
-          </div>
-          <div class="header__mobile-masseng">
-            <a href="#"><img src="./images/icons/youtube.svg" alt="youtube"></a>
-            <a href="#"><img src="./images/icons/instagram.svg" alt="instagram"></a>
-            <a href="#"><img src="./images/icons/vk.svg" alt="vk"></a>
-            <a href="#"><img src="./images/icons/whatsapp.svg" alt="whatsapp"></a>
-            <a href="#"><img src="./images/icons/telegram.svg" alt="telegram"></a>
-          </div>
-          <div class="header__mobile-menu-button">
-            <a class="header__mobile-menu-link" href="#">ЗАКАЗАТЬ ЗВОНОК</a>
-          </div>
-        </div>
-      </div>
-
-
-    </header>
-    <section class="description__mobile">
-      <div class="description__mobile-title-container">
-        <h1 class="description__mobile-title-text">СТРОИТЕЛЬСТВО ДАЧНЫХ ДОМОВ И КОТТЕДЖЕЙ</h1>
-      </div>
-      <div class="description__mobile-description-container">
-        <p class="description__mobile-description-text">
-          На участок поставляются готовые модули, производится их монтаж в короткие сроки. <br>
-          Мы гарантируем выполнение всех взятых на себя обязательств и доступные цены.
-        </p>
-      </div>
-      <div class="calculator__mobile-link-container">
-        <a href="#" class="calculator__mobile-link"><img src="./images/img-mobile/strelka-mobile.svg" alt="calculator-prise">
-          <span class="text-link">РАССЧИТАТЬ СТОИМОСТЬ</span>
-        </a>
-      </div>
-    </section>
-    <section class="products__mobile">
-      <h3 class="products__mobile-title">Предложения для вас</h3>
-      <div class="products__mobile-filter">
-        <ul class="products__mobile-filter-list">
-          <div class="grid1">
-            <li class="find-filter find-filter--active"><a class="find-filter-link" href="#">Каркасные дома</a></li>
-            <li class="find-filter"><a class="find-filter-link" href="#">Бани</a></li>
-          </div>
-          <div class="grid2">
-            <li class="find-filter"><a class="find-filter-link" href="#">Беседки</a></li>
-            <li class="find-filter"><a class="find-filter-link" href="#">Бытовки</a></li>
-          </div>
-          <div class="grid3">
-            <li class="find-filter"><a class="find-filter-link" href="#">Хоз. постройки</a></li>
-          </div>
-        </ul>
-      </div>
-      <div class="mobile-first-swiper">
-        <div class="wrapper">
-          <div class="swiper products__swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="products">
-                  <img class="frame-house" src="./images/swiper/Frame-house.jpg" alt="Frame-house">
-                  <div class="suggestions__discription">
-                    <h4 class="name-products">Каркасный дом с<br> балконом LK-2</h4>
-                    <div class="discription-products">
-                      <p class="size">Размер: <span class="numbers-size">4х6 м</span></p>
-                      <p class="square">Площадь:<span class="numbers-square">34.8 м2</span></p>
-                      <p class="rooms">Количество комнат: <span class="numbers-rooms">3 шт</span></p>
-                      <p class="price">940 000 ₽</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="products">
-                  <img class="frame-house" src="./images/swiper/Frame-house2.jpg" alt="Frame-house">
-                  <div class="suggestions__discription">
-                    <h4 class="name-products">Каркасный дом с<br> балконом LK-2</h4>
-                    <div class="discription-products">
-                      <p class="size">Размер: <span class="numbers-size">4х6 м</span></p>
-                      <p class="square">Площадь:<span class="numbers-square">34.8 м2</span></p>
-                      <p class="rooms">Количество комнат: <span class="numbers-rooms">3 шт</span></p>
-                      <p class="price">940 000 ₽</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="products">
-                  <img class="frame-house" src="./images/swiper/Frame-house3.jpg" alt="Frame-house">
-                  <div class="suggestions__discription">
-                    <h4 class="name-products">Каркасный дом с<br> балконом LK-2</h4>
-                    <div class="discription-products">
-                      <p class="size">Размер: <span class="numbers-size">4х6 м</span></p>
-                      <p class="square">Площадь:<span class="numbers-square">34.8 м2</span></p>
-                      <p class="rooms">Количество комнат: <span class="numbers-rooms">3 шт</span></p>
-                      <p class="price">940 000 ₽</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="products">
-                  <img class="frame-house" src="./images/swiper/Frame-house4.jpg" alt="Frame-house">
-                  <div class="suggestions__discription">
-                    <h4 class="name-products">Каркасный дом с<br> балконом LK-2</h4>
-                    <div class="discription-products">
-                      <p class="size">Размер: <span class="numbers-size">4х6 м</span></p>
-                      <p class="square">Площадь:<span class="numbers-square">34.8 м2</span></p>
-                      <p class="rooms">Количество комнат: <span class="numbers-rooms">3 шт</span></p>
-                      <p class="price">940 000 ₽</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="products__mobile-all">
-        <a class="all-projects-link" href="#">СМОТРЕТЬ ВСЕ ПРОЕКТЫ</a>
-      </div>
-    </section>
-    <section class="family__mobile-container">
-      <div class="wrapper-family">
-        <div class="swiper swiper__family">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide swiper-slide--famaly">
-              <div class="family__container-information">
-                <h3 class="family__title">Мы работаем с <b>материнским капиталом!</b> </h3>
-                <div class="button-link-container">
-                  <a href="#" class="button-link">Оставить <br> заявку</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-button-next-1">
-        <img class="button-swiper-1" src="./images/svg/Arrow.svg" alt="next">
-      </div>
-      <div class="swiper-button-prev-1">
-        <img class="button-swiper-1" src="./images/svg/Arrow10.svg" alt="prev">
-      </div>
-      <div class="swiper-pagination"></div>
-    </section>
-    <section class="suggestions-mobile">
-      <div class="suggestions-mobile-container">
-        <h2 class="suggestions-mobile-title">Наши преимущества</h2>
-        <div class="swiper mobileSwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="suggestions-mobile__container">
-                <div class="suggestions-mobile__content">
-                  <img class="suggestions-mobile__content-image" src="./images/img-mobile/content/certificate.png" alt="certificate">
-                  <h3 class="suggestions-mobile-content-title">Работаем строго по договору</h3>
-                  <p class="suggestions-mobile-content-text">Стоимость строительсва фиксированная.
-                    И все наши обязательства прописаны в договоре.
-                  </p>
-                </div>
-                <div class="suggestions-mobile__content">
-                  <img class="suggestions-mobile__content-image" src="./images/img-mobile/content/certificate.png" alt="certificate">
-                  <h3 class="suggestions-mobile-content-title">Работаем строго по договору</h3>
-                  <p class="suggestions-mobile-content-text">Стоимость строительсва фиксированная.
-                    И все наши обязательства прописаны в договоре.
-                  </p>
-                </div>
-                <div class="suggestions-mobile__content">
-                  <img class="suggestions-mobile__content-image" src="./images/img-mobile/content/certificate.png" alt="certificate">
-                  <h3 class="suggestions-mobile-content-title">Работаем строго по договору</h3>
-                  <p class="suggestions-mobile-content-text">Стоимость строительсва фиксированная.
-                    И все наши обязательства прописаны в договоре.
-                  </p>
-                </div>
-                <div class="suggestions-mobile__content">
-                  <img class="suggestions-mobile__content-image" src="./images/img-mobile/content/certificate.png" alt="certificate">
-                  <h3 class="suggestions-mobile-content-title">Работаем строго по договору</h3>
-                  <p class="suggestions-mobile-content-text">Стоимость строительсва фиксированная.
-                    И все наши обязательства прописаны в договоре.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="suggestions-mobile__container">
-                <div class="suggestions-mobile__content">
-                  <img class="suggestions-mobile__content-image" src="./images/img-mobile/content/certificate.png" alt="certificate">
-                  <h3 class="suggestions-mobile-content-title">Работаем строго по договору</h3>
-                  <p class="suggestions-mobile-content-text">Стоимость строительсва фиксированная.
-                    И все наши обязательства прописаны в договоре.
-                  </p>
-                </div>
-                <div class="suggestions-mobile__content">
-                  <img class="suggestions-mobile__content-image" src="./images/img-mobile/content/certificate.png" alt="certificate">
-                  <h3 class="suggestions-mobile-content-title">Работаем строго по договору</h3>
-                  <p class="suggestions-mobile-content-text">Стоимость строительсва фиксированная.
-                    И все наши обязательства прописаны в договоре.
-                  </p>
-                </div>
-                <div class="suggestions-mobile__content">
-                  <img class="suggestions-mobile__content-image" src="./images/img-mobile/content/certificate.png" alt="certificate">
-                  <h3 class="suggestions-mobile-content-title">Работаем строго по договору</h3>
-                  <p class="suggestions-mobile-content-text">Стоимость строительсва фиксированная.
-                    И все наши обязательства прописаны в договоре.
-                  </p>
-                </div>
-                <div class="suggestions-mobile__content">
-                  <img class="suggestions-mobile__content-image" src="./images/img-mobile/content/certificate.png" alt="certificate">
-                  <h3 class="suggestions-mobile-content-title">Работаем строго по договору</h3>
-                  <p class="suggestions-mobile-content-text">Стоимость строительсва фиксированная.
-                    И все наши обязательства прописаны в договоре.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="naw-mobile">
-            <div class="swiper-button-prev-3">
-              <img class="button-prev-3" src="./images/img-mobile/content/VectorPrev.svg" alt="prev">
-            </div>
-            <div class="swiper-button-next-3">
-              <img class="button-next-3" src="./images/img-mobile/content/VectorNext.svg" alt="next">
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="messang-vk">
-        <h2 class="messang-vk-title"> <b>Хотите узнавать</b> о строящихся объектах, акциях и спецпредложениях?</h2>
-        <p class="messang-vk-text">Подпишитесь на нашу группу ВКонтакте и узнавайте свежие новости и полезную информацию раньше всех!</p>
-        <div class="messang-vk-container">
-          <a href="#" class="messang-vk-link">
-            Подписаться НА ГРУППУ ВКОНТАКТЕ
+        <div class="connection-button-container">
+          <a href="#" class="connection-button-link">
+            Связаться<br />
+            с нами
           </a>
         </div>
-      </div>
-    </section>
-    <section class="connection-mobile">
-      <div class="connection-description-container">
-        <h2 class="connection-description-title"> Планируете построить<b> индивидуальное строение? Свяжитесь с нами.</b></h2>
-        <p class="connection-description-text">
-          Хотите постройку в современном минималистичном стиле, но ни один из типовых проектов Вам не подходит?
-          Выход есть!
-        </p>
-        <p class="connection-description-text connection-description-text--second">
-          Свяжитесь с нами и мы реализуем задуманное.
-        </p>
-      </div>
-      <div class="connection-button-container">
-        <a href="#" class="connection-button-link">
-          Связаться<br> с нами
-        </a>
-      </div>
-    </section>
-    <section class="comments-mobile">
-      <div class="comments__container">
-        <div class="swiper swiperCommentsMobile">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide swiper-slide--comments">
-              <div class="comments__comment-container">
-                <p class="review">
-                  &#8226; Отзывы &#8226;
-                </p>
-                <h4 class="comments__container-userName">Джон Джон Джон</h4>
-                <div class="comments__container-text">
-                  <p class="comments__container-text-1">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
-                  </p>
-                  <br>
-                  <p class="comments__container-text-2">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
-                  </p>
-                </div>
-                <div class="comments__border"></div>
-                <div class="comments__order">
-                  <p class="comments__order-text">Изготовление каркасного <br> дома с балконом</p>
+      </section>
+      <section class="comments-mobile">
+        <div class="comments__container">
+          <div class="swiper swiperCommentsMobile">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper-slide--comments">
+                <div class="comments__comment-container">
+                  <p class="review">&#8226; Отзывы &#8226;</p>
+                  <h4 class="comments__container-userName">Джон Джон Джон</h4>
+                  <div class="comments__container-text">
+                    <p class="comments__container-text-1">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nis. Ut enim ad minim veniam, quis nostrud
+                      exercitation ullamco laboris nis.
+                    </p>
+                    <br />
+                    <p class="comments__container-text-2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nis.
+                    </p>
+                  </div>
+                  <div class="comments__border"></div>
+                  <div class="comments__order">
+                    <p class="comments__order-text">
+                      Изготовление каркасного <br />
+                      дома с балконом
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-button-prev6">
-            <img class="button-prev6" src="./images/img-mobile/content/VectorPrev.svg" alt="prev">
-          </div>
-          <div class="swiper-button-next6">
-            <img class="button-next6" src="./images/img-mobile/content/VectorNext.svg" alt="next">
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="map-mobile">
-      <div class="map__yandex">
-        <iframe class="yandex-map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A989a7ef7a61ca14947f7abc44478e1cf6d5ede4725a6c07eea666757d38ad2de&amp;source=constructor" width="375px" height="505px" frameborder="0"></iframe>
-      </div>
-      <div class="map-information-container">
-        <div class="map-information-container-content">
-          <h2 class="map-information-title">Контакты</h2>
-          <p class="map-information-address">Адрес:</p>
-          <div class="map-information-address-container">
-            <p class="map-information-address-address">Моск.обл. г.Ступино ул.Промышленная (200м от завода "Изомин")</p>
-            <p class="map-information-schedule">Пн-Сб 9:00-18:00, Вс - выходной</p>
-          </div>
-          <p class="map-information-contacts">Контакты:</p>
-          <div class="map-information-contacts-container">
-            <a class="map-information-phone-link" href="tel:+74951420725">+7 (495) 142-07-25</a>
-            <a class="map-information-phone-link" href="tel:+79779080250">+7 (977) 908-02-50</a>
-          </div>
-          <a href="#" class="map-email">domstroy-st@bk.ru</a>
-          <div class="map-masseng">
-            <a href="#"><img src="./images/icons/youtube.svg" alt="youtube"></a>
-            <a href="#"><img src="./images/icons/instagram.svg" alt="instagram"></a>
-            <a href="#"><img src="./images/icons/vk.svg" alt="vk"></a>
-            <a href="#"><img src="./images/icons/whatsapp.svg" alt="whatsapp"></a>
-            <a href="#"><img src="./images/icons/telegram.svg" alt="telegram"></a>
+            <div class="swiper-button-prev6">
+              <img
+                class="button-prev6"
+                src="./images/img-mobile/content/VectorPrev.svg"
+                alt="prev"
+              />
+            </div>
+            <div class="swiper-button-next6">
+              <img
+                class="button-next6"
+                src="./images/img-mobile/content/VectorNext.svg"
+                alt="next"
+              />
+            </div>
           </div>
         </div>
-        <div class="map-button">
-          <a class="map-button-link" href="#">Задать вопрос</a>
+      </section>
+      <section class="map-mobile">
+        <div class="map__yandex">
+          <iframe
+            class="yandex-map"
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3A989a7ef7a61ca14947f7abc44478e1cf6d5ede4725a6c07eea666757d38ad2de&amp;source=constructor"
+            width="375px"
+            height="505px"
+            frameborder="0"
+          ></iframe>
         </div>
-      </div>
+        <div class="map-information-container">
+          <div class="map-information-container-content">
+            <h2 class="map-information-title">Контакты</h2>
+            <p class="map-information-address">Адрес:</p>
+            <div class="map-information-address-container">
+              <p class="map-information-address-address">
+                Моск.обл. г.Ступино ул.Промышленная (200м от завода "Изомин")
+              </p>
+              <p class="map-information-schedule">
+                Пн-Сб 9:00-18:00, Вс - выходной
+              </p>
+            </div>
+            <p class="map-information-contacts">Контакты:</p>
+            <div class="map-information-contacts-container">
+              <a class="map-information-phone-link" href="tel:+74951420725"
+                >+7 (495) 142-07-25</a
+              >
+              <a class="map-information-phone-link" href="tel:+79779080250"
+                >+7 (977) 908-02-50</a
+              >
+            </div>
+            <a href="#" class="map-email">domstroy-st@bk.ru</a>
+            <div class="map-masseng">
+              <a href="#"
+                ><img src="./images/icons/youtube.svg" alt="youtube"
+              /></a>
+              <a href="#"
+                ><img src="./images/icons/instagram.svg" alt="instagram"
+              /></a>
+              <a href="#"><img src="./images/icons/vk.svg" alt="vk" /></a>
+              <a href="#"
+                ><img src="./images/icons/whatsapp.svg" alt="whatsapp"
+              /></a>
+              <a href="#"
+                ><img src="./images/icons/telegram.svg" alt="telegram"
+              /></a>
+            </div>
+          </div>
+          <div class="map-button">
+            <a class="map-button-link" href="#">Задать вопрос</a>
+          </div>
+        </div>
+      </section>
+      <footer class="footer-mobile">
+        <div class="footer-information">
+          <p class="footer-email-text">
+            Пишите нам:<a class="footer-email" href="#">domstroy-st@bk.ru</a>
+          </p>
+          <p class="footer-address">Моск.обл. г.Ступино ул.Промышленная</p>
+          <p class="footer-schedule">Пн-Сб 9:00-18:00, Вс - выходной</p>
+        </div>
+        <div class="footer-phone-container">
+          <a class="footer-phone-link" href="tel:+74951420725"
+            >+7 (495) 142-07-25</a
+          >
+          <a class="footer-phone-link" href="tel:+79779080250"
+            >+7 (977) 908-02-50</a
+          >
+        </div>
+        <div class="footer-masseng-container">
+          <p class="footer-masseng-title">Мы в социальных сетях:</p>
+          <div class="footer-masseng-icon-container">
+            <a class="masseng-icon" href="#"
+              ><img src="./images/icons/youtube.svg" alt="youtube"
+            /></a>
+            <a class="masseng-icon" href="#"
+              ><img src="./images/icons/instagram.svg" alt="instagram"
+            /></a>
+            <a class="masseng-icon" href="#"
+              ><img src="./images/icons/vk.svg" alt="vk"
+            /></a>
+            <a class="masseng-icon" href="#"
+              ><img src="./images/icons/whatsapp.svg" alt="whatsapp"
+            /></a>
+            <a class="masseng-icon" href="#"
+              ><img src="./images/icons/telegram.svg" alt="telegram"
+            /></a>
+          </div>
+        </div>
+        <div class="footer-button-container">
+          <a class="footer-button-link footer-button-link--first" href="#"
+            >ЧЕСТНЫЙ КАЛЬКУЛЯТОР БЕСЕДОК</a
+          >
+          <a class="footer-button-link footer-button-link--second" href="#"
+            >СВЯЗАТЬСЯ С НАМИ</a
+          >
+        </div>
+        <div class="footer-mobile-catalog">
+          <nav class="footer-mobile-navigation">
+            <h3
+              class="footer-mobile-catalog-title footer-mobile-catalog-title--first"
+            >
+              ПРОДУКЦИЯ
+            </h3>
+            <ul class="footer-mobile-list">
+              <li>
+                <a class="footer-mobile-link" href="#">Каркасные дома</a>
+              </li>
+              <li>
+                <a class="footer-mobile-link" href="#">Модульные дома</a>
+              </li>
+              <li>
+                <a class="footer-mobile-link" href="#">Бани “Под ключ“</a>
+              </li>
+              <li>
+                <a class="footer-mobile-link" href="#">Беседки</a>
+              </li>
+              <li>
+                <a class="footer-mobile-link" href="#">Бытовки (утепленные)</a>
+              </li>
+              <li>
+                <a class="footer-mobile-link" href="#"
+                  >Хоз. постройки (без утепления)</a
+                >
+              </li>
+            </ul>
+            <h3 class="footer-mobile-catalog-title">КОМПЛЕКТАЦИЯ</h3>
+            <ul class="footer-mobile-list">
+              <li>
+                <a class="footer-mobile-link" href="#">Комплектация домоы</a>
+              </li>
+              <li>
+                <a class="footer-mobile-link" href="#">Комплектация бань</a>
+              </li>
+              <li>
+                <a class="footer-mobile-link" href="#">Комплектация беседок</a>
+              </li>
+              <li>
+                <a class="footer-mobile-link" href="#">Комплектация бытовок</a>
+              </li>
+              <li>
+                <a class="footer-mobile-link" href="#"
+                  >Комплектация хоз. построек</a
+                >
+              </li>
+            </ul>
+            <h3 class="footer-mobile-catalog-title">ЗАКАЗЧИКУ</h3>
+            <ul class="footer-mobile-list">
+              <li>
+                <a class="footer-mobile-link" href="#"
+                  >Индивидуальное строительство</a
+                >
+              </li>
+              <li>
+                <a class="footer-mobile-link" href="#">Фиксированные цены</a>
+              </li>
+              <li>
+                <a class="footer-mobile-link" href="#"
+                  >Дистанционное оформление договора</a
+                >
+              </li>
+              <li>
+                <a class="footer-mobile-link" href="#">Материнский капитал</a>
+              </li>
+              <li>
+                <a class="footer-mobile-link" href="#">Порядок оплаты</a>
+              </li>
+              <li>
+                <a class="footer-mobile-link" href="#">Процесс заказа</a>
+              </li>
+            </ul>
+            <h3 class="footer-mobile-catalog-title">ПОЛЕЗНО</h3>
+            <ul class="footer-mobile-list">
+              <li>
+                <a class="footer-mobile-link" href="#">Доставка и сборка</a>
+              </li>
+              <li>
+                <a class="footer-mobile-link" href="#">Контакты</a>
+              </li>
+              <li>
+                <a class="footer-mobile-link footer-mobile-link--last" href="#"
+                  >Наши работы</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-law-mobile">
+          <p class="footer-law-mobile-text">Политика конфиденциальности</p>
+          <p class="footer-law-mobile-text">Пользовательское соглашение</p>
+          <p class="footer-law-mobile-text">Cookies</p>
+          <div class="copyright">
+            <p class="footer-law-mobile-text footer-law-mobile-text--last">
+              Copyright © “ДОМСТРОЙ” 2022. <br />
+              Все права защищены.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
 
-    </section>
-    <footer class="footer-mobile">
-      <div class="footer-information">
-        <p class="footer-email-text">Пишите нам:<a class="footer-email" href="#">domstroy-st@bk.ru</a></p>
-        <p class="footer-address">Моск.обл. г.Ступино ул.Промышленная</p>
-        <p class="footer-schedule">Пн-Сб 9:00-18:00, Вс - выходной</p>
-      </div>
-      <div class="footer-phone-container">
-        <a class="footer-phone-link" href="tel:+74951420725">+7 (495) 142-07-25</a>
-        <a class="footer-phone-link" href="tel:+79779080250">+7 (977) 908-02-50</a>
-      </div>
-      <div class="footer-masseng-container">
-        <p class="footer-masseng-title">Мы в социальных сетях:</p>
-        <div class="footer-masseng-icon-container">
-          <a class="masseng-icon" href="#"><img src="./images/icons/youtube.svg" alt="youtube"></a>
-          <a class="masseng-icon" href="#"><img src="./images/icons/instagram.svg" alt="instagram"></a>
-          <a class="masseng-icon" href="#"><img src="./images/icons/vk.svg" alt="vk"></a>
-          <a class="masseng-icon" href="#"><img src="./images/icons/whatsapp.svg" alt="whatsapp"></a>
-          <a class="masseng-icon" href="#"><img src="./images/icons/telegram.svg" alt="telegram"></a>
-        </div>
-      </div>
-      <div class="footer-button-container">
-        <a class="footer-button-link footer-button-link--first" href="#">ЧЕСТНЫЙ КАЛЬКУЛЯТОР БЕСЕДОК</a>
-        <a class="footer-button-link footer-button-link--second" href="#">СВЯЗАТЬСЯ С НАМИ</a>
-      </div>
-      <div class="footer-mobile-catalog">
-        <nav class="footer-mobile-navigation">
-          <h3 class="footer-mobile-catalog-title footer-mobile-catalog-title--first">ПРОДУКЦИЯ</h3>
-          <ul class="footer-mobile-list">
-            <li>
-              <a class="footer-mobile-link" href="#">Каркасные дома</a>
-            </li>
-            <li>
-              <a class="footer-mobile-link" href="#">Модульные дома</a>
-            </li>
-            <li>
-              <a class="footer-mobile-link" href="#">Бани “Под ключ“</a>
-            </li>
-            <li>
-              <a class="footer-mobile-link" href="#">Беседки</a>
-            </li>
-            <li>
-              <a class="footer-mobile-link" href="#">Бытовки (утепленные)</a>
-            </li>
-            <li>
-              <a class="footer-mobile-link" href="#">Хоз. постройки (без утепления)</a>
-            </li>
-          </ul>
-          <h3 class="footer-mobile-catalog-title">КОМПЛЕКТАЦИЯ</h3>
-          <ul class="footer-mobile-list">
-            <li>
-              <a class="footer-mobile-link" href="#">Комплектация домоы</a>
-            </li>
-            <li>
-              <a class="footer-mobile-link" href="#">Комплектация бань</a>
-            </li>
-            <li>
-              <a class="footer-mobile-link" href="#">Комплектация беседок</a>
-            </li>
-            <li>
-              <a class="footer-mobile-link" href="#">Комплектация бытовок</a>
-            </li>
-            <li>
-              <a class="footer-mobile-link" href="#">Комплектация хоз. построек</a>
-            </li>
-          </ul>
-          <h3 class="footer-mobile-catalog-title">ЗАКАЗЧИКУ</h3>
-          <ul class="footer-mobile-list">
-            <li>
-              <a class="footer-mobile-link" href="#">Индивидуальное строительство</a>
-            </li>
-            <li>
-              <a class="footer-mobile-link" href="#">Фиксированные цены</a>
-            </li>
-            <li>
-              <a class="footer-mobile-link" href="#">Дистанционное оформление договора</a>
-            </li>
-            <li>
-              <a class="footer-mobile-link" href="#">Материнский капитал</a>
-            </li>
-            <li>
-              <a class="footer-mobile-link" href="#">Порядок оплаты</a>
-            </li>
-            <li>
-              <a class="footer-mobile-link" href="#">Процесс заказа</a>
-            </li>
-          </ul>
-          <h3 class="footer-mobile-catalog-title">ПОЛЕЗНО</h3>
-          <ul class="footer-mobile-list">
-            <li>
-              <a class="footer-mobile-link" href="#">Доставка и сборка</a>
-            </li>
-            <li>
-              <a class="footer-mobile-link" href="#">Контакты</a>
-            </li>
-            <li>
-              <a class="footer-mobile-link footer-mobile-link--last" href="#">Наши работы</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="footer-law-mobile">
-        <p class="footer-law-mobile-text">Политика конфиденциальности</p>
-        <p class="footer-law-mobile-text">Пользовательское соглашение</p>
-        <p class="footer-law-mobile-text">Cookies</p>
-        <div class="copyright">
-          <p class="footer-law-mobile-text footer-law-mobile-text--last ">Copyright © “ДОМСТРОЙ” 2022. <br>
-            Все права защищены.</p>
-        </div>
-      </div>
-    </footer>
-  </div>
-
-  <!-- JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script src="./js/components/swiper.js"></script>
-  <script src="./js/components/swiperFamily.js"></script>
-  <script src="./js/components/comments-swiper.js"></script>
-  <script src="./js/components/mobileSwiper.js"></script>
-  <script src="./js/components/swiperCommentsMobile.js"></script>
-  <script src="./js/components/mobileMenu.js"></script>
-</body>
-
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/components/swiper.js"></script>
+    <script src="./js/components/swiperFamily.js"></script>
+    <script src="./js/components/comments-swiper.js"></script>
+    <script src="./js/components/mobileSwiper.js"></script>
+    <script src="./js/components/swiperCommentsMobile.js"></script>
+    <script src="./js/components/mobileMenu.js"></script>
+  </body>
 </html>

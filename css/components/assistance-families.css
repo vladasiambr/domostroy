@@ -52,10 +52,16 @@
 
 @media screen and (max-width: 1160px) {
   .assistance-families__image {
-    min-width:600px;
+    min-width: 600px;
   }
   .assistance-families__title {
     padding: 79px 115px 0 15px;
     font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  family__mobile-container {
+    position: relative;
   }
 }
