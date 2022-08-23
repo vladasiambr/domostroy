@@ -99,6 +99,9 @@
   background: #ffffff;
   /* кнопка контейнера  */
 }
+.header__menu-link--active {
+  color: #ffc239 
+}
 
 .header__message {
   display: flex;
@@ -132,7 +135,33 @@
   color: #ffffff;
 }
 /* синий контейнер */
+.header__navigation {
+  height: 45px;
+  background: #8c93d1;
+}
+.header__list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 13px 116px 15px 90px;
+  margin: 0;
+}
+/* сиреневый контейнер  */
+.header__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  text-decoration: none;
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+  padding-right: 50px;
+}
 
+.header__list-item:last-child a {
+  border: none;
+}
 @media screen and (max-width: 1266px) {
   .header__company,
   .header__logo {
