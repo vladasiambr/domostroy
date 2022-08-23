@@ -6,6 +6,9 @@
   font-style: normal;
   display: none;
 }
+.header__mobile-menu--active{
+  display: block;
+}
 .header__mobile-container-logo {
   display: flex;
   margin: 43px 0 56px 25px;
