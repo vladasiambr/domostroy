@@ -60,10 +60,13 @@
 }
 
 @media screen and (max-width: 375px) {
+  .comments__container {
+    position: relative;
+  }
   .comments__comment-container {
     height: auto;
     width: 320px;
-    border-radius: 0;
+    border-radius: 0 0 20px 20px;
     margin-left: 27px;
   }
   .comments__order-text {

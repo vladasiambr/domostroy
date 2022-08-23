@@ -7,8 +7,24 @@
 .swiperCommentsMobile {
   background-color: var(--gray-light-2);
 }
-.button-next6 {
+
+
+.comments__container {
+  height: 1000px;
 }
-.button-prev6 {
+
+.swiper-button-prev6,
+.swiper-button-next6 {
+  position: absolute;
   z-index: 1;
+  width: 20px;
+  height: 54px;
+  bottom: 35px;
+}
+
+.swiper-button-next6 {
+  right: 28px;
+}
+.swiper-button-prev6 {
+  left: 27px;
 }
